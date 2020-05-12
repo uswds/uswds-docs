@@ -62,9 +62,14 @@ defaults:
     values:
       layout: post
 
+github:
+  source:
+    branch: master
+
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-github-metadata
 
 exclude:
   - ".ruby-version"
