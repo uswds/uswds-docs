@@ -18,40 +18,40 @@ https://v2.designsystem.digital.gov/utilities
 */
 
 $site-default-colors: (
-  'default-base-lightest': '#f0f0f0',
-  'default-base-lighter': '#dcdee0',
-  'default-base-light': '#a9aeb1',
-  'default-base': '#71767a',
-  'default-base-dark': '#565c65',
-  'default-base-darker': '#3d4551',
-  'default-base-darkest': '#1b1b1b',
-  'default-ink': '#1b1b1b',
-  'default-primary-lighter': '#d9e8f6',
-  'default-primary-light': '#73b3e7',
-  'default-primary': '#005ea2',
-  'default-primary-vivid': '#0050d8',
-  'default-primary-dark': '#1a4480',
-  'default-primary-darker': '#162e51',
-  'default-secondary-lighter': '#f8dfe2',
-  'default-secondary-light': '#f2938c',
-  'default-secondary': '#d83933',
-  'default-secondary-vivid': '#e41d3d',
-  'default-secondary-dark': '#b51d09',
-  'default-secondary-darker': '#8b1303',
-  'default-accent-warm-lighter': '#f2e4d4',
-  'default-accent-warm-light': '#ffbc78',
-  'default-accent-warm': '#fa9441',
-  'default-accent-warm-dark': '#c05600',
-  'default-accent-warm-darker': '#775540',
-  'default-accent-cool-lighter': '#e1f3f8',
-  'default-accent-cool-light': '#97d4ea',
-  'default-accent-cool': '#00bde3',
-  'default-accent-cool-dark': '#28a0cb',
-  'default-accent-cool-darker': '#07648d',
+  "default-base-lightest": "#f0f0f0",
+  "default-base-lighter": "#dcdee0",
+  "default-base-light": "#a9aeb1",
+  "default-base": "#71767a",
+  "default-base-dark": "#565c65",
+  "default-base-darker": "#3d4551",
+  "default-base-darkest": "#1b1b1b",
+  "default-ink": "#1b1b1b",
+  "default-primary-lighter": "#d9e8f6",
+  "default-primary-light": "#73b3e7",
+  "default-primary": "#005ea2",
+  "default-primary-vivid": "#0050d8",
+  "default-primary-dark": "#1a4480",
+  "default-primary-darker": "#162e51",
+  "default-secondary-lighter": "#f8dfe2",
+  "default-secondary-light": "#f2938c",
+  "default-secondary": "#d83933",
+  "default-secondary-vivid": "#e41d3d",
+  "default-secondary-dark": "#b51d09",
+  "default-secondary-darker": "#8b1303",
+  "default-accent-warm-lighter": "#f2e4d4",
+  "default-accent-warm-light": "#ffbc78",
+  "default-accent-warm": "#fa9441",
+  "default-accent-warm-dark": "#c05600",
+  "default-accent-warm-darker": "#775540",
+  "default-accent-cool-lighter": "#e1f3f8",
+  "default-accent-cool-light": "#97d4ea",
+  "default-accent-cool": "#00bde3",
+  "default-accent-cool-dark": "#28a0cb",
+  "default-accent-cool-darker": "#07648d",
 );
 
-$utilities-use-important:     true;
-$output-utilities:        true;
+$utilities-use-important: true;
+$output-utilities: true;
 
 /*
 ----------------------------------------
@@ -64,15 +64,24 @@ used by utilities or layout grid
 */
 
 $theme-utility-breakpoints: (
-  'card':             false,   // 160px
-  'card-lg':          false,   // 240px
-  'mobile':           false,   // 320px
-  'mobile-lg':        true,    // 480px
-  'tablet':           true,    // 640px
-  'tablet-lg':        false,   // 800px
-  'desktop':          true,    // 1024px
-  'desktop-lg':       true,   // 1200px
-  'widescreen':       false,   // 1400px
+  "card": false,
+  // 160px
+  "card-lg": false,
+  // 240px
+  "mobile": false,
+  // 320px
+  "mobile-lg": true,
+  // 480px
+  "tablet": true,
+  // 640px
+  "tablet-lg": false,
+  // 800px
+  "desktop": true,
+  // 1024px
+  "desktop-lg": true,
+  // 1200px
+  "widescreen": false,
+  // 1400px
 );
 
 /*
@@ -87,9 +96,7 @@ The following palettes will be added to
 ----------------------------------------
 */
 
-$global-color-palettes: (
-  'palette-color-default'
-);
+$global-color-palettes: ("palette-color-default");
 
 /*
 ----------------------------------------
@@ -98,507 +105,507 @@ Settings
 */
 
 $add-aspect-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $add-list-reset-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $align-items-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $background-color-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        true,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: true,
+  visited: false,
 );
 
 $border-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        true,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: true,
+  visited: false,
 );
 
 $border-color-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        true,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: true,
+  visited: false,
 );
 
 $border-radius-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $border-style-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $border-width-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $bottom-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $box-shadow-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        true,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: true,
+  visited: false,
 );
 
 $circle-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $clearfix-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $color-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        true,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: true,
+  visited: false,
 );
 
 $cursor-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $display-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $flex-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $flex-direction-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $flex-wrap-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $float-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $font-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $font-family-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $font-feature-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $font-style-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $font-weight-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $height-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $justify-content-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $left-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $letter-spacing-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $line-height-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $margin-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $max-height-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $max-width-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $measure-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $min-height-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $min-width-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $opacity-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $order-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $outline-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $outline-color-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $overflow-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $padding-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $pin-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $position-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $right-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $square-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $text-align-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $text-decoration-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        true,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: true,
+  visited: false,
 );
 
 $text-decoration-color-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        true,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: true,
+  visited: false,
 );
 
 $text-indent-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $text-transform-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $top-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $vertical-align-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $whitespace-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $width-settings: (
-  output:       true,
-  responsive:   true,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: true,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 $z-index-settings: (
-  output:       true,
-  responsive:   false,
-  active:       false,
-  focus:        false,
-  hover:        false,
-  visited:      false
+  output: true,
+  responsive: false,
+  active: false,
+  focus: false,
+  hover: false,
+  visited: false,
 );
 
 /*
@@ -614,20 +621,17 @@ $add-aspect-manual-values: ();
 
 // .align-items
 
-$align-items-palettes: ('palette-align-items-default');
+$align-items-palettes: ("palette-align-items-default");
 $align-items-manual-values: ();
 
 // .background-color
 
-$background-color-palettes: (
-  'palette-color-system',
-  'palette-color-state'
-);
+$background-color-palettes: ("palette-color-system", "palette-color-state");
 $background-color-manual-values: $site-default-colors;
 
 // .border
 
-$border-palettes: ('palette-border-default');
+$border-palettes: ("palette-border-default");
 $border-manual-values: ();
 
 // .border-color
@@ -637,213 +641,211 @@ $border-color-manual-values: $site-default-colors;
 
 // .border-radius
 
-$border-radius-palettes: ('palette-border-radius-default');
+$border-radius-palettes: ("palette-border-radius-default");
 $border-radius-manual-values: ();
 
 // .border-style
 
-$border-style-palettes: ('palette-border-style-default');
+$border-style-palettes: ("palette-border-style-default");
 $border-style-manual-values: ();
 
 // .border-width
 
-$border-width-palettes: ('palette-border-width-default');
+$border-width-palettes: ("palette-border-width-default");
 $border-width-manual-values: ();
 
 // .bottom
 
-$bottom-palettes: ('palette-bottom-default');
+$bottom-palettes: ("palette-bottom-default");
 
 $bottom-manual-values: ();
 
 // .box-shadow
 
-$box-shadow-palettes: ('palette-box-shadow-default');
+$box-shadow-palettes: ("palette-box-shadow-default");
 
 $box-shadow-manual-values: ();
 
 // .circle
 
-$circle-palettes: ('palette-circle-default');
+$circle-palettes: ("palette-circle-default");
 $circle-manual-values: ();
 
 // .color
 
-$color-palettes: ('palette-color-system');
+$color-palettes: ("palette-color-system");
 $color-manual-values: $site-default-colors;
 
 // .cursor
 
-$cursor-palettes: ('palette-cursor-default');
+$cursor-palettes: ("palette-cursor-default");
 $cursor-manual-values: ();
 
 // .display
 
-$display-palettes: ('palette-display-default');
+$display-palettes: ("palette-display-default");
 $display-manual-values: ();
 
 // .flex
 
-$flex-palettes: ('palette-flex-default');
+$flex-palettes: ("palette-flex-default");
 $flex-manual-values: ();
 
 // .flex-direction
 
-$flex-direction-palettes: ('palette-flex-direction-default');
+$flex-direction-palettes: ("palette-flex-direction-default");
 $flex-direction-manual-values: ();
 
 // .flex-wrap
 
-$flex-wrap-palettes: ('palette-flex-wrap-default');
+$flex-wrap-palettes: ("palette-flex-wrap-default");
 $flex-wrap-manual-values: ();
 
 // .float
 
-$float-palettes: ('palette-float-default');
+$float-palettes: ("palette-float-default");
 $float-manual-values: ();
 
 // .font
 
-$font-palettes: (
-  'palette-font'
-);
+$font-palettes: ("palette-font");
 $font-manual-values: ();
 
 // .font-family
 
-$font-family-palettes: ('palette-font-family-default');
+$font-family-palettes: ("palette-font-family-default");
 $font-family-manual-values: ();
 
 // .font-feature-settings
 
-$font-feature-palettes: ('palette-font-feature-settings-default');
+$font-feature-palettes: ("palette-font-feature-settings-default");
 $font-feature-manual-values: ();
 
 // .font-style
 
-$font-style-palettes: ('palette-font-style-default');
+$font-style-palettes: ("palette-font-style-default");
 $font-style-manual-values: ();
 
 // .font-weight
 
 $font-weight-palettes: (
-  'palette-font-weight-default',
-  'palette-font-weight-system',
+  "palette-font-weight-default",
+  "palette-font-weight-system"
 );
 $font-weight-manual-values: ();
 
 // .height
 
-$height-palettes: ('palette-height-default');
+$height-palettes: ("palette-height-default");
 $height-manual-values: ();
 
 // .justify-content
 
-$justify-content-palettes: ('palette-justify-content-default');
+$justify-content-palettes: ("palette-justify-content-default");
 $justify-content-manual-values: ();
 
 // .left
 
-$left-palettes: ('palette-left-default');
+$left-palettes: ("palette-left-default");
 $left-manual-values: ();
 
 // .letter-spacing
 
-$letter-spacing-palettes: ('palette-letter-spacing-default');
+$letter-spacing-palettes: ("palette-letter-spacing-default");
 $letter-spacing-manual-values: ();
 
 // .line-height
 
-$line-height-palettes: ('palette-line-height-default');
+$line-height-palettes: ("palette-line-height-default");
 $line-height-manual-values: ();
 
 // .margin
 
-$margin-palettes: ('palette-margin-default');
+$margin-palettes: ("palette-margin-default");
 $margin-manual-values: ();
-$margin-vertical-palettes: ('palette-margin-vertical-default');
+$margin-vertical-palettes: ("palette-margin-vertical-default");
 $margin-vertical-manual-values: ();
-$margin-horizontal-palettes: ('palette-margin-horizontal-default');
+$margin-horizontal-palettes: ("palette-margin-horizontal-default");
 $margin-horizontal-manual-values: ();
 
 // .max-height
 
-$max-height-palettes: ('palette-max-height-default');
+$max-height-palettes: ("palette-max-height-default");
 $max-height-manual-values: ();
 
 // .max-width
 
-$max-width-palettes: ('palette-max-width-default');
+$max-width-palettes: ("palette-max-width-default");
 $max-width-manual-values: ();
 
 // .measure
 
-$measure-palettes: ('palette-measure-default');
+$measure-palettes: ("palette-measure-default");
 $measure-manual-values: ();
 
 // .min-height
 
-$min-height-palettes: ('palette-min-height-default');
+$min-height-palettes: ("palette-min-height-default");
 $min-height-manual-values: ();
 
 // .min-width
 
-$min-width-palettes: ('palette-min-width-default', 'palette-units-percentage');
+$min-width-palettes: ("palette-min-width-default", "palette-units-percentage");
 $min-width-manual-values: ();
 
 // .opacity
 
-$opacity-palettes: ('palette-opacity-default');
+$opacity-palettes: ("palette-opacity-default");
 $opacity-manual-values: ();
 
 // .order
 
-$order-palettes: ('palette-order-default');
+$order-palettes: ("palette-order-default");
 $order-manual-values: ();
 
 // .outline
 
-$outline-palettes: ('palette-outline-default');
+$outline-palettes: ("palette-outline-default");
 $outline-manual-values: ();
 
 // .outline-color
 
-$outline-color-palettes: ('palette-outline-color-default');
+$outline-color-palettes: ("palette-outline-color-default");
 $outline-color-manual-values: ();
 
 // .overflow
 
-$overflow-palettes: ('palette-overflow-default');
+$overflow-palettes: ("palette-overflow-default");
 $overflow-manual-values: ();
 
 // .padding
 
-$padding-palettes: ('palette-padding-default');
+$padding-palettes: ("palette-padding-default");
 $padding-manual-values: ();
 
 // .position
 
-$position-palettes: ('palette-position-default');
+$position-palettes: ("palette-position-default");
 $position-manual-values: ();
 
 // .right
 
-$right-palettes: ('palette-right-default');
+$right-palettes: ("palette-right-default");
 $right-manual-values: ();
 
 // .square
 
-$square-palettes: ('palette-square-default');
+$square-palettes: ("palette-square-default");
 $square-manual-values: ();
 
 // .text-align
 
-$text-align-palettes: ('palette-text-align-default');
+$text-align-palettes: ("palette-text-align-default");
 $text-align-manual-values: ();
 
 // .text-decoration
 
-$text-decoration-palettes: ('palette-text-decoration-default');
+$text-decoration-palettes: ("palette-text-decoration-default");
 $text-decoration-manual-values: ();
 
 // .text-decoration-color
@@ -853,35 +855,35 @@ $text-decoration-color-manual-values: $site-default-colors;
 
 // .text-indent
 
-$text-indent-palettes: ('palette-text-indent-default');
+$text-indent-palettes: ("palette-text-indent-default");
 $text-indent-manual-values: ();
 
 // .text-transform
 
-$text-transform-palettes: ('palette-text-transform-default');
+$text-transform-palettes: ("palette-text-transform-default");
 $text-transform-manual-values: ();
 
 // .top
 
-$top-palettes: ('palette-top-default');
+$top-palettes: ("palette-top-default");
 $top-manual-values: ();
 
 // .vertical-align
 
-$vertical-align-palettes: ('palette-vertical-align-default');
+$vertical-align-palettes: ("palette-vertical-align-default");
 $vertical-align-manual-values: ();
 
 // .white-space
 
-$whitespace-palettes: ('palette-white-space-default');
+$whitespace-palettes: ("palette-white-space-default");
 $whitespace-manual-values: ();
 
 // .width
 
-$width-palettes: ('palette-width-default');
+$width-palettes: ("palette-width-default");
 $width-manual-values: ();
 
 // .z-index
 
-$z-index-palettes: ('palette-z-index-default');
+$z-index-palettes: ("palette-z-index-default");
 $z-index-manual-values: ();

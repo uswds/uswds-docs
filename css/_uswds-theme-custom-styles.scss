@@ -1,3 +1,6 @@
+@use "variables" as *;
+@use "packages/uswds-core" as *;
+
 // ========================================
 // CUSTOM PROJECT SASS
 // ----------------------------------------
@@ -94,7 +97,7 @@ body {
   text-align: center;
 }
 
-.usa-prose site-prose {
+.usa-prose .site-prose {
   @include typeset("lang");
 }
 
@@ -383,7 +386,6 @@ body {
 
     &::after {
       border-radius: 0;
-      bottom: units(0);
       background-color: color($site-primary-vivid);
       bottom: units(-1px);
       left: units($site-border-width) * -1;
@@ -1981,9 +1983,6 @@ li {
   @include u-margin-left(2px);
   @include u-margin-y(0);
   @include u-text("normal", "uppercase", "ls-1");
-}
-
-.utilities-properties {
 }
 
 .utilities-property {

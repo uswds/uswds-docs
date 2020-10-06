@@ -1,21 +1,119 @@
-// Imports
-@import 'variables';
-@import 'uswds-theme-general';
-@import 'uswds-theme-typography';
-@import 'uswds-theme-spacing';
-@import 'uswds-theme-color';
-@import 'uswds-theme-utilities';
+$site-default-colors: (
+  "default-base-lightest": "#f0f0f0",
+  "default-base-lighter": "#dcdee0",
+  "default-base-light": "#a9aeb1",
+  "default-base": "#71767a",
+  "default-base-dark": "#565c65",
+  "default-base-darker": "#3d4551",
+  "default-base-darkest": "#1b1b1b",
+  "default-ink": "#1b1b1b",
+  "default-primary-lighter": "#d9e8f6",
+  "default-primary-light": "#73b3e7",
+  "default-primary": "#005ea2",
+  "default-primary-vivid": "#0050d8",
+  "default-primary-dark": "#1a4480",
+  "default-primary-darker": "#162e51",
+  "default-secondary-lighter": "#f8dfe2",
+  "default-secondary-light": "#f2938c",
+  "default-secondary": "#d83933",
+  "default-secondary-vivid": "#e41d3d",
+  "default-secondary-dark": "#b51d09",
+  "default-secondary-darker": "#8b1303",
+  "default-accent-warm-lighter": "#f2e4d4",
+  "default-accent-warm-light": "#ffbc78",
+  "default-accent-warm": "#fa9441",
+  "default-accent-warm-dark": "#c05600",
+  "default-accent-warm-darker": "#775540",
+  "default-accent-cool-lighter": "#e1f3f8",
+  "default-accent-cool-light": "#97d4ea",
+  "default-accent-cool": "#00bde3",
+  "default-accent-cool-dark": "#28a0cb",
+  "default-accent-cool-darker": "#07648d",
+);
 
-// Settings
-// -------------------------------------
-@import 'settings/settings-general';
-@import 'settings/settings-typography';
-@import 'settings/settings-color';
-@import 'settings/settings-spacing';
-@import 'settings/settings-utilities';
-@import 'settings/settings-components';
+@forward "packages/uswds-core" with (
+  $theme-show-notifications: false,
+  $theme-root-font-size: 16px,
+  $theme-global-link-styles: true,
+  $theme-font-type-lang: "public-sans",
+  $theme-type-scale-lg: 8,
+  $theme-type-scale-xl: 11,
+  $theme-font-weight-thin: 200,
+  $theme-font-weight-medium: 500,
+  $theme-font-weight-semibold: 600,
+  $theme-font-weight-heavy: 800,
+  $theme-generate-all-weights: true,
+  $theme-text-measure: 3,
+  $theme-text-measure-wide: 4,
+  $theme-lead-measure: 5,
+  $theme-color-base-lighter: 'gray-10',
+  $theme-color-base-light: 'gray-30',
+  $theme-color-base: 'gray-50',
+  $theme-color-base-dark: 'gray-60',
+  $theme-color-base-darker: 'gray-80',
+  $theme-card-border-radius: "md",
+  $theme-identifier-font-family: "lang",
+  $theme-utility-breakpoints: (
+    'card':             false,
+    'card-lg':          false,
+    'mobile':           false,
+    'mobile-lg':        true,
+    'tablet':           true,
+    'tablet-lg':        false,
+    'desktop':          true,
+    'desktop-lg':       true,
+    'widescreen':       false,
+  ),
+  $border-color-settings: (
+    output:       true,
+    responsive:   true,
+    active:       false,
+    focus:        false,
+    hover:        true,
+    visited:      false
+  ),
+  $border-radius-settings: (
+    output:       true,
+    responsive:   true,
+    active:       false,
+    focus:        false,
+    hover:        false,
+    visited:      false
+  ),
+  $max-width-settings: (
+    output:       true,
+    responsive:   true,
+    active:       false,
+    focus:        false,
+    hover:        false,
+    visited:      false
+  ),
+  $whitespace-settings: (
+    output:       true,
+    responsive:   true,
+    active:       false,
+    focus:        false,
+    hover:        false,
+    visited:      false
+  ),
+  $background-color-palettes: (
+    'palette-color-system',
+    'palette-color-state'
+  ),
+  $background-color-manual-values: $site-default-colors,
+  $border-color-manual-values: $site-default-colors,
+  $color-palettes: ('palette-color-system'),
+  $color-manual-values: $site-default-colors,
+  $font-palettes: ('palette-font'),
+  $font-weight-palettes: (
+    'palette-font-weight-default',
+    'palette-font-weight-system',
+  ),
+  $min-width-palettes: (
+    'palette-min-width-default',
+    'palette-units-percentage',
+  ),
+  $text-decoration-color-manual-values: $site-default-colors,
+);
 
-// Tools
-// -------------------------------------
-@import 'packages/required';
-@import 'uswds-theme-custom-styles';
+@forward "uswds-theme-custom-styles";

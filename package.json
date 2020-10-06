@@ -76,7 +76,7 @@
     "postcss-csso": "^4.0.0",
     "sass": "^1.26.10",
     "snyk": "^1.395.0",
-    "uswds": "^2.9.0",
+    "uswds": "github:uswds/uswds#cc-pattern-lab",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },

@@ -96,7 +96,6 @@ gulp.task('build',
       done();
     },
     'clean-assets',
-    'build-uswds-if-needed',
     gulp.parallel(
       'fonts',
       'images',
