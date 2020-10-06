@@ -14,19 +14,18 @@ lead: An accordion is a list of headers that hide or reveal additional content w
   {% include code/preview.html component="accordion" %}
   {% include code/accordion.html component="accordion" %}
   <div class="usa-accordion usa-accordion--bordered site-accordion-docs">
-    <button class="usa-button-unstyled usa-accordion__button"
-    aria-expanded="true" aria-controls="documentation">
-    Guidance
-  </button>
-  <div id="documentation" class="usa-accordion__content site-component-usage">
-    <h4>When to use the accordion component</h4>
-    <ul class="usa-content-list">
-      <li><strong>If users will only need a few specific pieces of content within a page.</strong></li>
-      <li><strong>If you have only a small space to display a lot of content.</strong></li>
-    </ul>
-    <h4>When to consider something else</h4>
-    <ul class="usa-content-list">
-      <li><strong>If users need to see most or all of the information on a page.</strong> Use well-formatted text instead.</li>
+    <button class="usa-button-unstyled usa-accordion__button" aria-expanded="true" aria-controls="documentation">
+      Guidance
+    </button>
+    <div id="documentation" class="usa-accordion__content site-component-usage">
+      <h4>When to use the accordion component</h4>
+      <ul class="usa-content-list">
+        <li><strong>If users will only need a few specific pieces of content within a page.</strong></li>
+        <li><strong>If you have only a small space to display a lot of content.</strong></li>
+      </ul>
+      <h4>When to consider something else</h4>
+      <ul class="usa-content-list">
+        <li><strong>If users need to see most or all of the information on a page.</strong> Use well-formatted text instead.</li>
       <li><strong>If there is not enough content to warrant condensing.</strong> Accordions increase cognitive load and interaction cost, as users have to make decisions about what headers to click on.</li>
     </ul>
     <h4>Usability guidance</h4>

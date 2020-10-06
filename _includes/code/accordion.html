@@ -2,6 +2,6 @@
   {% assign _id = include.component | prepend: 'code-' %}
   <button class="usa-accordion__button" aria-controls="{{ _id }}">Component code</button>
   <div id="{{ _id }}" class="usa-accordion__content">
-    {% include code/syntax.html component=include.component %}
+    {% include code/syntax.html component = include.component %}
   </div>
 </div>

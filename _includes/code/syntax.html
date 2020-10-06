@@ -1,7 +1,5 @@
 {% capture _syntax %}
-  {% highlight html linenos %}
-    {% include code/components/{{ include.component }}.{{ include.language|default: 'html' }} %}
-  {% endhighlight %}
-{% endcapture %}
-
-{{ _syntax|markdownify }}
+{% highlight html linenos %}
+{% include code/components/{{ include.component }}.{{ include.language|default: 'html' }} %}
+{% endhighlight %}
+{% endcapture %}{{ _syntax|markdownify }}

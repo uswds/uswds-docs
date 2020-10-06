@@ -56,16 +56,16 @@ Sometimes you will want to use the latest version of the `uswds` repo. Follow th
 1. Run `npm run build` to create the built version of USWDS in the `uswds` directory.
 1. Run `npm link` in the _root level_ of the `uswds` directory on your local machine.
 1. Run `npm link uswds` in the _root level_ of the `uswds-site` directory on your local machine.
-1. Run `npm start` in the `uswds` directory, and make a note of the `Local URL` that Fractal is serving.
-1. In another terminal window, set the `FRACTAL_BASE_URL` env var to the running Fractal instance for `uswds`. In your terminal window in the `uswds-site` directory, enter `export FRACTAL_BASE_URL="http://127.0.0.1:3000"` (or the `Local URL` noted above).
+1. Run `npm start` in the `uswds` directory, and make a note of the `Local URL` that Pattern Lab is serving.
+1. In another terminal window, set the `PATTERNLAB_BASE_URL` env var to the running Pattern Lab instance for `uswds`. In your terminal window in the `uswds-site` directory, enter `export PATTERNLAB_BASE_URL="http://127.0.0.1:3000"` (or the `Local URL` noted above).
 1. In the `uswds-site` window, run `npm run serve` in the `uswds-site` directory to start the Jekyll server.
 1. Run `npm run watch` in the `uswds-site` directory to have changes to that repo automatically built and compiled. Note: `uswds-site` will _not_ automatically rebuild when there are changes in `uswds`, you'll need to trigger a site rebuild manually to reflect changes in the `uswds` repo.
 
 You are now linked and using the local version of USWDS. To unlink this version, type `npm unlink uswds` from the _root level_ of the `uswds` directory.
 
-### Fractal components
+### Pattern Lab components
 
-USWDS uses the [fractal design system builder](http://fractal.build/) to organize and document the components. This documentation site pulls the components from fractal to showcase them on the site. This is done with a custom `fractal_component` Jekyll tag, which takes the full name of the fractal component as a parameter.
+USWDS uses the [Pattern Lab design system](http://patternlab.io/) to organize and document the components. This documentation site pulls the components from Pattern Lab to showcase them on the site. This is done with a custom `patternlab_component` Jekyll tag, which takes the full name of the patternlab component as a parameter.
 
 ### Deployment and previews
 

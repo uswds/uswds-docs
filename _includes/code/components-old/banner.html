@@ -1,6 +1,6 @@
 <h6>.gov domains</h6>
 {% capture banner %}
-  {% fractal_component banner %}
+  {% patternlab_component banner %}
 {% endcapture %}{{ banner
   | strip
   | replace: 'gov-banner', 'gov-banner-default'
@@ -9,7 +9,7 @@
 
 <h6>.mil domains</h6>
 {% capture banner--dot-mil %}
-  {% fractal_component banner--dot-mil %}
+  {% patternlab_component banner--dot-mil %}
 {% endcapture %}{{ banner--dot-mil
   | strip
   | replace: 'gov-banner', 'gov-banner-dot-mil'
@@ -18,7 +18,7 @@
 
 <h6>.gov domains (Spanish)</h6>
 {% capture banner--lang-es %}
-  {% fractal_component banner--lang-es %}
+  {% patternlab_component banner--lang-es %}
 {% endcapture %}{{ banner--lang-es
   | strip
   | replace: 'gov-banner', 'gov-banner-lang-es'
@@ -27,7 +27,7 @@
 
 <h6>.mil domains (Spanish)</h6>
 {% capture banner--dot-mil-lang-es %}
-  {% fractal_component banner--dot-mil-lang-es %}
+  {% patternlab_component banner--dot-mil-lang-es %}
 {% endcapture %}{{ banner--dot-mil-lang-es
   | strip
   | replace: 'gov-banner', 'gov-banner-dot-mil-lang-es'

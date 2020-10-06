@@ -14,9 +14,8 @@ lead: Breadcrumbs provide secondary navigation to help users understand where th
 A breadcrumb bar (or _breadcrumbs_, or _breadcrumb trail_) is a series of links that describes the hierarchical relationship between the current page and the overall site structure. Breadcrumbs allow a user to navigate “up” instead of using the “Back” button to return to the previous page. A breadcrumb bar facilitates orientation when a user navigates to an interior page from a web search or link from another site.
 
 {% include code/preview.html component="breadcrumb" %}
-
 <section class="site-component-section">
-  {% include code/components/breadcrumb.html component="breadcrumb" %}
+  {% include code/accordion.html component="breadcrumb" %}
   <div class="usa-accordion usa-accordion--bordered site-accordion-docs">
     <button class="usa-button-unstyled usa-accordion__button" aria-expanded="true" aria-controls="breadcrumb-docs">Guidance</button>
     <div id="breadcrumb-docs" aria-hidden="false" class="usa-accordion__content site-component-usage">
