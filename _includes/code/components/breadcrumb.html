@@ -1,14 +1,20 @@
 <h6>Default breadcrumb</h6>
 {% capture breadcrumb %}
-  {% fractal_component breadcrumb %}
-{% endcapture %}{{ breadcrumb | strip }}
+  {% fractal_component usa-breadcrumb-usa-breadcrumb %}
+{% endcapture %}
+
+{{ breadcrumb|strip }}
 
 <h6>Breadcrumb with RDFa metadata</h6>
 {% capture breadcrumb--metadata %}
-  {% fractal_component breadcrumb--metadata %}
-{% endcapture %}{{ breadcrumb--metadata | strip }}
+  {% fractal_component usa-breadcrumb-_usa-breadcrumb--metadata %}
+{% endcapture %}
+
+{{ breadcrumb--metadata|strip }}
 
 <h6>Wrapping breadcrumb</h6>
 {% capture breadcrumb--wrap %}
-  {% fractal_component breadcrumb--wrap %}
-{% endcapture %}{{ breadcrumb--wrap | strip }}
+  {% fractal_component usa-breadcrumb-usa-breadcrumb-wrap %}
+{% endcapture %}
+
+{{ breadcrumb--wrap|strip }}

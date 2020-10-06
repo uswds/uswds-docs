@@ -8,7 +8,7 @@ module Jekyll
       super
       @name = name.strip
       @base_url = ENV[BASE_URL_ENV_VAR]
-      @fs_path = "node_modules/uswds/build/components/render/#{@name}.html"
+      @fs_path = "node_modules/uswds/patternlab/patterns/components-#{@name}/components-#{@name}.markup-only.html"
     end
 
     def get_from_server()

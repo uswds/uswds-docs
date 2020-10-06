@@ -16,7 +16,7 @@ A breadcrumb bar (or _breadcrumbs_, or _breadcrumb trail_) is a series of links 
 {% include code/preview.html component="breadcrumb" %}
 
 <section class="site-component-section">
-  {% include code/components/breadcrumb.html component="breadcrumb" %}
+  {% include code/accordion.html component="breadcrumb" %}
   <div class="usa-accordion usa-accordion--bordered site-accordion-docs">
     <button class="usa-button-unstyled usa-accordion__button" aria-expanded="true" aria-controls="breadcrumb-docs">Guidance</button>
     <div id="breadcrumb-docs" aria-hidden="false" class="usa-accordion__content site-component-usage">

@@ -22,7 +22,7 @@ gulp.task("build-sass-fonts", function() {
     .pipe(
       sass
         .sync({
-          includePaths: ["./node_modules/uswds/dist/scss", "./css/settings"],
+          includePaths: ["./node_modules/uswds/dist/scss/stylesheets", "./css/settings"],
           outputStyle: "expanded"
         })
         .on("error", function(error) {
@@ -46,7 +46,7 @@ gulp.task("build-sass-components", function() {
     .pipe(
       sass
         .sync({
-          includePaths: ["./node_modules/uswds/dist/scss", "./css/settings"],
+          includePaths: ["./node_modules/uswds/dist/scss/stylesheets", "./css/settings"],
           outputStyle: "expanded"
         })
         .on("error", function(error) {
@@ -70,7 +70,7 @@ gulp.task("build-sass-custom", function() {
     .pipe(
       sass
         .sync({
-          includePaths: ["./node_modules/uswds/dist/scss", "./css/settings"],
+          includePaths: ["./node_modules/uswds/dist/scss/stylesheets", "./css/settings"],
           outputStyle: "expanded"
         })
         .on("error", function(error) {
@@ -94,7 +94,7 @@ gulp.task("build-sass-utilities", function() {
     .pipe(
       sass
         .sync({
-          includePaths: ["./node_modules/uswds/dist/scss", "./css/settings"],
+          includePaths: ["./node_modules/uswds/dist/scss/stylesheets", "./css/settings"],
           outputStyle: "expanded"
         })
         .on("error", function(error) {
