@@ -46,9 +46,7 @@ lead: An alert keeps users informed of important and sometimes time-sensitive ch
       <h4 class="usa-heading">Implementation</h4>
       <h5 id="component-settings">Alert settings</h5>
       {% assign settings = site.data.settings.components.alert %}
-      {% include settings-table-simple.html
-        settings=settings.contents
-      %}
+      {% include settings-table-simple.html settings=settings.contents %}
       <h5 id="component-variants">Alert variants</h5>
       <table class="usa-table--borderless site-table-responsive site-table-simple" aria-labelledby="component-variants">
         <thead>
