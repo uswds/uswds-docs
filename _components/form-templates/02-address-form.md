@@ -25,7 +25,6 @@ lead: Enter a standard U.S. mailing or shipping address
     </ul>
     <h4>Usability guidance</h4>
     <ul class="usa-content-list">
-      <li><strong>Don’t call out required fields.</strong> Call out optional fields instead. Users can infer that non-optional fields are required.</li>
       <li><strong>Avoid dropdowns.</strong> If possible, let users type their state’s abbreviation when they reach the state drop-down menu.</li>
       <li><strong>Support both five- and nine-digit ZIP codes.</strong> Some addresses require a nine-digit ZIP code. If you would like to use an input mask, it should be “#####-####” so that the text is properly formatted, regardless of whether a user enters a five- or nine-digit ZIP code.</li>
     </ul>
