@@ -19,7 +19,7 @@ subnav:
 ## Introducing packages
 Not every USWDS project needs to use the entire design system. We support incremental adoption, in part by allowing any USWDS project to import only the components they need.
 
-To do this, we're expanding the idea of **packages** that already existed in USWDS 2.0. The USWDS 2.0 version of packages allowed users to include only parts of the USWDS codebase by using `@import`ing specific files within `stylesheets/packages`. (See [the theme stylesheet](https://github.com/uswds/uswds/blob/develop/src/stylesheets/theme/styles.scss) for an example of this.) The initial version of packages allowed importing only the fonts, the components, the utilities, or the layout grid. **Packages (starting in USWDS 2.1) are much more granular and modular.**
+To do this, we're expanding the idea of **packages** that already existed in USWDS 2.0. The USWDS 2.0 version of packages allowed users to include only parts of the USWDS codebase by using `@import`ing specific files within `stylesheets/packages`. (See [the theme stylesheet [github.com]](https://github.com/uswds/uswds/blob/develop/src/stylesheets/theme/styles.scss) for an example of this.) The initial version of packages allowed importing only the fonts, the components, the utilities, or the layout grid. **Packages (starting in USWDS 2.1) are much more granular and modular.**
 
 Now we consider a **package** to be a discrete unit of functionality — typically a component (like [search]({{ site.baseurl }}/components/search)). These packages are kept in `stylesheets/packages` and they point to each functional unit's dependencies and source code. For example, the `usa-search` package looks like this:
 

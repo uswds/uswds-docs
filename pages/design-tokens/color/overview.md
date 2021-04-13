@@ -43,11 +43,11 @@ Throughout our documentation and guidance, we’ll use use the terms color, colo
 </div>
 
 ## Color and accessibility
-Color is powerful but unreliable — its effects are neither consistent nor predictable across a population. [Approximately 0.5% of adult women and 8% of adult men](https://nei.nih.gov/health/color_blindness/facts_about) (4.5% of the total population) have some kind of color insensitivity. Color insensitivity can make it difficult to distinguish hues (red/green color blindness is the most common form), and some rare conditions prevent the perception of hue altogether. Commonplace vision problems like short- and near-sightedness and astigmatism (among others) also affect how well folks perceive color and contrast.
+Color is powerful but unreliable — its effects are neither consistent nor predictable across a population. [Approximately 0.5% of adult women and 8% of adult men [nih.gov]](https://nei.nih.gov/health/color_blindness/facts_about) (4.5% of the total population) have some kind of color insensitivity. Color insensitivity can make it difficult to distinguish hues (red/green color blindness is the most common form), and some rare conditions prevent the perception of hue altogether. Commonplace vision problems like short- and near-sightedness and astigmatism (among others) also affect how well folks perceive color and contrast.
 
-Accessibility is not a special case. In Q2 of 2018, [sites using USWDS topped 1.4 billion pageviews]({{ site.baseurl }}/about/whats-new/). 4.5% of 1.4 billion is around 60 million pageviews — when it comes to accessibility, thinking broadly and inclusively isn’t just a good idea, it’s our mission and responsibility.
+Accessibility is not a special case. According to [analytics.usa.gov](https://analytics.usa.gov/), there are billions of visits to federal websites each month. When it comes to accessibility, thinking broadly and inclusively isn’t just a good idea, it’s our mission and responsibility.
 
-[Section 508](https://section508.gov/), which aligns with [WCAG 2.0 Level AA](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0), sets a legal standard for the contrast level necessary between text and its background. The baseline AA contrast standard is 4.5:1 for most text and 3:1 for large text (19px+ bold or 24px+ normal text).
+[Section 508 [section508.gov]](https://section508.gov/), which aligns with [WCAG 2.0 Level AA [w3.org]](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0), sets a legal standard for the contrast level necessary between text and its background. The baseline AA contrast standard is 4.5:1 for most text and 3:1 for large text (19px+ bold or 24px+ normal text).
 
 ### Accessible color pairings
 
@@ -113,7 +113,7 @@ We call the difference in grade between any two colors the _magic number_. Magic
 
 Use USWDS magic numbers to choose accessible color combinations from any palette and color family.
 
-USWDS magic number works because each grade conforms to a specific range of values for [relative luminance](https://www.w3.org/WAI/GL/wiki/Relative_luminance). WCAG and Section 508 color contrast is calculated as a ratio of the relative luminances of two colors, so as long as our colors fall between a specific luminance range for each grade, the ratio will conform to contrast requirements.
+USWDS magic number works because each grade conforms to a specific range of values for [relative luminance [w3.org]](https://www.w3.org/WAI/GL/wiki/Relative_luminance). WCAG and Section 508 color contrast is calculated as a ratio of the relative luminances of two colors, so as long as our colors fall between a specific luminance range for each grade, the ratio will conform to contrast requirements.
 
 | grade | minimum luminance | maximum luminance
 | --- | --- | ---
@@ -150,13 +150,13 @@ Readability is the ease with which a reader can understand a written text. It's 
 But when it comes to color, consider these general guidelines:
 
 - Section 508 AA+ color contrast helps colorblindness and color perception.
-- Avoiding pure black text on white helps dyslexia, [Irlen Syndrome](https://irlen.com/what-is-irlen-syndrome/), light sensitivity, and autism.
+- Avoiding pure black text on white helps dyslexia, light sensitivity, and autism.
 - Best combination is the max color contrast of white/light text on black/dark background which seems to visually work well for all.
 - The best option, when possible, is to provide a way for users to select their own text and background colors.
 
 ## USWDS color wheels
 
-The following color wheels are a way to visualize the entire [USWDS system palette]({{ site.baseurl }}/design-tokens/color/system-tokens/) and its color family naming rubric. The color wheels are arranged around the 360° of the [HSL color model](https://en.wikipedia.org/wiki/HSL_and_HSV). Each color family is labelled with its position (in degrees) on this model. In general, colors within color families stay close to the hue value listed, but it is a custom palette, not generated by an algorithm. Hue variation within color families is intentional — we are trying to find good colors, not just those that fit a function.
+The following color wheels are a way to visualize the entire [USWDS system palette]({{ site.baseurl }}/design-tokens/color/system-tokens/) and its color family naming rubric. The color wheels are arranged around the 360° of the [Hue-Saturation-Lightness (HSL) color model [w3.org]](https://www.w3.org/wiki/CSS3/Color/HSL). Each color family is labelled with its position (in degrees) on this model. In general, colors within color families stay close to the hue value listed, but it is a custom palette, not generated by an algorithm. Hue variation within color families is intentional — we are trying to find good colors, not just those that fit a function.
 
 {:.bg-white.padding-2.radius-md}
 ![standard color wheel]({{ site.baseurl }}/assets/img/design-tokens/uswds-standard-color-wheel-2.6.0.jpg)
@@ -174,7 +174,7 @@ The following color wheels are a way to visualize the entire [USWDS system palet
 
 If we use color intentionally, consistently, and sensitively, it can make a big difference in the way people understand and connect with our pages, our products and services, and our message. Color is an important component of visual and emotional cognition, and that’s precisely what makes it difficult to use well — what’s strong and confident to one person can be jarring or alarming to another.
 
-**Start in black and white.** Start with your core message and use type scale and hierarchy to test and refine its effectiveness. Then introduce color to support that message. Color can overwhelm interpretation, and since [approximately 4.5% of the population](https://nei.nih.gov/health/color_blindness/facts_about) has some kind of color insensitivity, it’s important not to rely on color to convey information critical to your message.
+**Start in black and white.** Start with your core message and use type scale and hierarchy to test and refine its effectiveness. Then introduce color to support that message. Color can overwhelm interpretation, and since [approximately 4.5% of the population [nih.gov]](https://nei.nih.gov/health/color_blindness/facts_about) has some kind of color insensitivity, it’s important not to rely on color to convey information critical to your message.
 
 **Put the practical before the emotional.** Because color can do so much, it can be smart to be focused. Limit the complexity of color by concentrating on functional requirements (like status states or directions) first. Then, use color as progressive enhancement to reinforce or balance the emotional needs of the content. Even so, bear in mind that the effects of color are often personal and cultural as much, or more so, than physiological. Understand that using color to optimize for tone necessarily excludes in in subtle and not-so-subtle ways.
 
@@ -182,22 +182,16 @@ If we use color intentionally, consistently, and sensitively, it can make a big 
 
 **Ask visual designers.** Your group or agency may have visual designers either on staff or available as contractors. They can be an invaluable resource for building palettes or getting feedback on existing ones. USWDS benefits from the collective experience of visual designers across agencies to build our system palette, and to provide a range of prebuilt project theme palettes. If you have visual design resources, use them.
 
-**Don’t use color exclusively to convey meaning.** Even Section 508 conformant contrast doesn’t ensure that colors are distinguishable for a significant percentage of your audience. [Approximately 0.5% of adult women and 8% of adult men](https://nei.nih.gov/health/color_blindness/facts_about) have some kind of color insensitivity, especially between red and green. Color should only be used as progressive enhancement — if color is the only signal, that signal won’t get through as intended to everyone.
+**Don’t use color exclusively to convey meaning.** Even Section 508 conformant contrast doesn’t ensure that colors are distinguishable for a significant percentage of your audience. [Approximately 0.5% of adult women and 8% of adult men [nih.gov]](https://nei.nih.gov/health/color_blindness/facts_about) have some kind of color insensitivity, especially between red and green. Color should only be used as progressive enhancement — if color is the only signal, that signal won’t get through as intended to everyone.
 
 ## References
 - Accessibility: Color and contrast
-  [https://accessibility.digital.gov/visual-design/color-and-contrast](https://accessibility.digital.gov/visual-design/color-and-contrast){:.display-block}
+  [https://accessibility.digital.gov/visual-design/color-and-contrast [digital.gov]](https://accessibility.digital.gov/visual-design/color-and-contrast){:.display-block}
 - Color and readability
-  [https://www.w3.org/WAI/RD/2012/text-customization/r11](https://www.w3.org/WAI/RD/2012/text-customization/r11){:.display-block}
-- Improving accessibility for colorblind users
-  [https://www.smashingmagazine.com/2016/06/improving-color-accessibility-for-color-blind-users/](https://www.smashingmagazine.com/2016/06/improving-color-accessibility-for-color-blind-users/){:.display-block}
-- Introduction to Irlen Syndrome
-  [https://irlen.com/what-is-irlen-syndrome/](https://irlen.com/what-is-irlen-syndrome/){:.display-block}
-- Making content accessible for those with dyslexia
-  [https://www.dyslexic.com/blog/quick-guide-making-content-accessible/](https://www.dyslexic.com/blog/quick-guide-making-content-accessible/){:.display-block}
+  [https://www.w3.org/WAI/RD/2012/text-customization/r11 [w3.org]](https://www.w3.org/WAI/RD/2012/text-customization/r11){:.display-block}
 - W3C: Contrast levels for readability
-  [https://www.w3.org/WAI/test-evaluate/preliminary/#contrast](https://www.w3.org/WAI/test-evaluate/preliminary/#contrast){:.display-block}
+  [https://www.w3.org/WAI/test-evaluate/preliminary/#contrast [w3.org]](https://www.w3.org/WAI/test-evaluate/preliminary/#contrast){:.display-block}
 - W3C: Gap analysis of the state of accessibility for people with learning disabilities and cognitive disabilities
-  [https://w3c.github.io/wcag/coga/gap-analysis.html](https://w3c.github.io/wcag/coga/gap-analysis.html){:.display-block}
+  [https://w3c.github.io/wcag/coga/gap-analysis.html [github.io]](https://w3c.github.io/wcag/coga/gap-analysis.html){:.display-block}
 - W3C: Low vision needs
-  [https://www.w3.org/TR/low-vision-needs/](https://www.w3.org/TR/low-vision-needs/){:.display-block}
+  [https://www.w3.org/TR/low-vision-needs/ [w3.org]](https://www.w3.org/TR/low-vision-needs/){:.display-block}

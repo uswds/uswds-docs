@@ -1,2 +1,2 @@
-- Policies for Federal Agency Public Websites and Digital Services ([M-17-06](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/m-17-06.pdf))
-- Guidance for Agency Use of Third-Party Websites and Applications ([M-10-23](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/memoranda_2010/m10-23.pdf))
+- Policies for Federal Agency Public Websites and Digital Services ([M-17-06 [whitehouse.gov]](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2017/m-17-06.pdf))
+- Guidance for Agency Use of Third-Party Websites and Applications ([M-10-23 [archives.gov]](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/memoranda_2010/m10-23.pdf))

@@ -35,7 +35,7 @@ Once you understand how to work with USWDS source code, you'll be well on your w
 
 In order to _use_ USWDS with your project, you need to add it to your project.
 
-The best way to add USWDS to your project is through a terminal window (see tips for using **Terminal** on a [Mac](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [Windows](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?rtc=1&activetab=pivot:overviewtab)). We distribute our source code through a service called **Node Package Manager** (or **npm**) which uses a flavor of JavaScript called **Node.js**.
+The best way to add USWDS to your project is through a terminal window (see tips for using **Terminal** on a [Mac [apple.com]](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) or [Windows [microsoft.com]](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?rtc=1&activetab=pivot:overviewtab)). We distribute our source code through a service called **Node Package Manager** (or **npm**) which uses a flavor of JavaScript called **Node.js**.
 
 Installing USWDS with Node and npm allows you not only to install all the code the design system needs to compile, but versions this code as well — meaning that it ties the code to a specific version. It's easy to know what version of the design system you're using, and it's easy to update to a newer (or older) version of the design system as well.
 
@@ -115,7 +115,7 @@ Now the USWDS source code is in your project, in `./node_modules/uswds`, as well
 
 ## How to compile the source code into browser-readable CSS
 
-USWDS source code is written in a language called [Sass](https://sass-lang.com/), a powerful stylesheet language that builds automation, functions, and logic into CSS. Browsers can't read native Sass files, they need to be compiled into CSS — usually a single CSS file — before we can use them. Basically, when you develop with USWDS, you do all your stylesheet work in Sass, then use a compiler to convert that Sass into CSS.
+USWDS source code is written in a language called [Sass [sass-lang.com]](https://sass-lang.com/), a powerful stylesheet language that builds automation, functions, and logic into CSS. Browsers can't read native Sass files, they need to be compiled into CSS — usually a single CSS file — before we can use them. Basically, when you develop with USWDS, you do all your stylesheet work in Sass, then use a compiler to convert that Sass into CSS.
 
 {:.margin-top-4 }
 ![Diagram showing the compile process. Settings, USWDS code, and custom code pass through a compiler into the final CSS codebase.]({{ baseurl }}/assets/img/fundamentals/fundamentals-compile.jpg)
@@ -161,7 +161,7 @@ We'll look at each section before moving on to compiling.
 
 USWDS settings provide a way to customize your theme styles without writing new code. Settings tell the design system how to build its stylesheets. In the Sass entry point, these settings are the first thing you need to import.
 
-Any individual setting is, essentially, a Sass variable. Each setting begins with the `$theme`- prefix, and we provide a list of all available settings [in the USWDS documentation]({{ site.baseurl }}/documentation/settings/) as well as examples [in the USWDS codebase](https://github.com/uswds/uswds/tree/main/src/stylesheets/theme). A very simple settings file might look like this:
+Any individual setting is, essentially, a Sass variable. Each setting begins with the `$theme`- prefix, and we provide a list of all available settings [in the USWDS documentation]({{ site.baseurl }}/documentation/settings/) as well as examples [in the USWDS codebase [github.com]](https://github.com/uswds/uswds/tree/main/src/stylesheets/theme). A very simple settings file might look like this:
 
 {:.site-terminal}
 ```scss
@@ -208,7 +208,7 @@ For the purposes of this guide, we won't get into custom code, but the important
 
 ### How to compile: Using uswds-gulp
 
-Once you have a Sass entry point for your project, you need a tool to convert the source Sass into browser readable CSS. This step is called compiling, and we use a talk manager called [Gulp](https://gulpjs.com/) to watch our directories for changes, and compile our CSS whenever there's a change. We've developed a tool called [uswds-gulp](https://github.com/uswds/uswds-gulp) to help teams install Gulp and get up and running as quickly as possible.
+Once you have a Sass entry point for your project, you need a tool to convert the source Sass into browser readable CSS. This step is called compiling, and we use a talk manager called [Gulp [gulpjs.com]](https://gulpjs.com/) to watch our directories for changes, and compile our CSS whenever there's a change. We've developed a tool called [uswds-gulp [github.com]](https://github.com/uswds/uswds-gulp) to help teams install Gulp and get up and running as quickly as possible.
 
 #### Install uswds-gulp
 

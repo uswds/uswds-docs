@@ -1,1 +1,1 @@
-- As you customize this form template, make sure it continues to follow the [accessibility guidelines for form templates](https://designsystem.digital.gov/teampltes/form-templates/) and the [accessibility guidelines for form controls](https://designsystem.digital.gov/components/form/).
+- As you customize this form template, make sure it continues to follow the [accessibility guidelines for form templates]({{ site.baseurl }}/templates/form-templates/) and the [accessibility guidelines for form controls]({{ site.baseurl }}/components/form/).

@@ -8,7 +8,7 @@ category: About
 excerpt:
 ---
 
-The U.S. Web Design System (formerly Standards) is currently being used on hundreds of government sites, with an audience of more than 100 million monthly users. In this 10th post in our series, we met with Kyle Jennings, creator of the [Benjamin WordPress theme](https://github.com/kyle-jennings/benjamin) (and [Franklin plug-in](https://github.com/kyle-jennings/franklin)) using the System.
+The U.S. Web Design System (formerly Standards) is currently being used on hundreds of government sites, with an audience of more than 100 million monthly users. In this 10th post in our series, we met with Kyle Jennings, creator of the [Benjamin WordPress theme [github.com]](https://github.com/kyle-jennings/benjamin) (and [Franklin plug-in [github.com]](https://github.com/kyle-jennings/franklin)) using the System.
 
 Jennings is a full stack WordPress developer, who worked on the former GSA Sites.USA.gov program.
 
@@ -45,7 +45,7 @@ This interview is motivating me to go back and add features!
 
 **USWDS:** What’s the foundation for this theme?
 
-**Kyle Jennings:** It’s built using the great [Underscores theme](https://underscores.me/) as a foundation, but 90% of the functionality is built from scratch.
+**Kyle Jennings:** It’s built using the great [Underscores theme [underscores.me]](https://underscores.me/) as a foundation, but 90% of the functionality is built from scratch.
 
 **USWDS:** Is there anything the System team could do to help you in your efforts?
 

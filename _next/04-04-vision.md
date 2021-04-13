@@ -54,7 +54,7 @@ Using shared services could be less expensive and more effective, while also ena
 
 Scaling a consistently exceptional experience for the public may mean thinking beyond improving the individual services and sites of each agency. Members of the public are navigating among over 9,000 federal websites (including subdomains and microsites), which places more burden on the public to know where to look as they seek to accomplish specific tasks.
 
-Having more consolidated online public services websites (a true “[federal front door](https://labs.usa.gov/)”) could provide a better, more reliable user experience, while promoting more efficient efforts, research, and content. Even some intermediate level of consolidation, with high-impact services remaining more independent, could go a long way toward improving public experience.
+Having more consolidated online public services websites (a true “[federal front door [usa.gov]](https://labs.usa.gov/)”) could provide a better, more reliable user experience, while promoting more efficient efforts, research, and content. Even some intermediate level of consolidation, with high-impact services remaining more independent, could go a long way toward improving public experience.
 
 Building independent sites with tight coupling to GSA’s common government products and services (cloud, search, analytics, design, and implementation) would also promote improved continuity, security, trust, and long-term maintainability for their sites, and address some of the persistent infrastructure challenges of decentralized implementation.
 

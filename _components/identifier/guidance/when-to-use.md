@@ -1,2 +1,2 @@
 - **To identify a site's parent agency.** The identifier is a complement to the USWDS [banner]({{ site.baseurl }}/components/banner). Use the identifier to tell users what agency is responsible for your website.
-- **To display links required by federal laws and policies.** The identifier includes [links required on all government sites](https://digital.gov/resources/required-web-content-and-links/).
+- **To display links required by federal laws and policies.** The identifier includes [links required on all government sites [digital.gov]](https://digital.gov/resources/required-web-content-and-links/).

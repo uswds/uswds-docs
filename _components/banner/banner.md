@@ -32,4 +32,4 @@ The banner explains that the combination of (a) an official .gov or .mil domain 
 
 Most government sites should use the banner, but some should not use the banner. Do NOT use the banner on non-government domains such as a .com or .org.
 
-If you are unable to update to [USWDS 2.8.0](https://github.com/uswds/uswds/releases) or higher but you still want to include the new language in your banner, we recommend editing your content to the language outlined below.
+If you are unable to update to [USWDS 2.8.0 [github.com]](https://github.com/uswds/uswds/releases) or higher but you still want to include the new language in your banner, we recommend editing your content to the language outlined below.

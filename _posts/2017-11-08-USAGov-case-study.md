@@ -40,7 +40,7 @@ From an accessibility standpoint, we created an issue log and gave it to the Sta
 
 **USWDS:** That’s helpful feedback. Did you also report that feedback in the repos (repositories)?
 
-**MM**: Yes. We did report it in the [GitHub repos](https://github.com/uswds/uswds/). As we adopted components, we provided additional testing information we have from using the Standards. For example, usage of the official tagline that appears at the very top of the pages. It was also helpful to see comments from other users/agencies on their experience or suggestions with the Standards. When using the Standards and encountering issues, we had to move forward whether they were addressed or not. We had deadlines for launching sections of our sites.
+**MM**: Yes. We did report it in the [GitHub repos [github.com]](https://github.com/uswds/uswds/). As we adopted components, we provided additional testing information we have from using the Standards. For example, usage of the official tagline that appears at the very top of the pages. It was also helpful to see comments from other users/agencies on their experience or suggestions with the Standards. When using the Standards and encountering issues, we had to move forward whether they were addressed or not. We had deadlines for launching sections of our sites.
 
 
 **USWDS:** Anything else the Standards team should know about multilingual sites?
@@ -69,4 +69,4 @@ From an accessibility standpoint, we created an issue log and gave it to the Sta
 
 ---
 
-We’re looking to learn more [from agencies that have used the Standards](/getting-started/showcase/); if you’re interested in talking to us about your experience or have any feedback, feel free to send us an email at [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov). You can also chat with the team in the new [public Slack channel for the Standards](https://chat.18f.gov/)!
+We’re looking to learn more [from agencies that have used the Standards](/getting-started/showcase/); if you’re interested in talking to us about your experience or have any feedback, feel free to send us an email at [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov). You can also chat with the team in the new [public Slack channel for the Standards [18f.gov]](https://chat.18f.gov/)!

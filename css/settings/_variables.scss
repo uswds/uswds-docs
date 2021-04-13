@@ -6,8 +6,6 @@ $asset-path: '../';
 $font-path: '#{$asset-path}fonts';
 $image-path: '#{$asset-path}img';
 
-$external-href: '[href^="http"]:not([href*=".gov"])';
-
 $z-nav-secondary: 100;
 
 // Site image path, relative to /assets/css/

@@ -25,8 +25,8 @@ the adoption and continued use of USWDS.
 
 #### References
 
-- [https://www.nngroup.com/articles/analytics-reports-ux-strategists/](https://www.nngroup.com/articles/analytics-reports-ux-strategists/)
-- [http://www.uxbooth.com/articles/an-analytics-first-approach-to-ux-part-1/](http://www.uxbooth.com/articles/an-analytics-first-approach-to-ux-part-1/)
+- [https://www.nngroup.com/articles/analytics-reports-ux-strategists/ [nngroup.com]](https://www.nngroup.com/articles/analytics-reports-ux-strategists/)
+- [http://www.uxbooth.com/articles/an-analytics-first-approach-to-ux-part-1/ [uxbooth.com]](http://www.uxbooth.com/articles/an-analytics-first-approach-to-ux-part-1/)
 
 ## User Research Activities
 

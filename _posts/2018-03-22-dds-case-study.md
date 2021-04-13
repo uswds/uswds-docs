@@ -7,7 +7,7 @@ category: About
 excerpt: In this 12th post in our series, we sat down with Jason Garber, front-end web developer at the U.S. Digital Service’s Defense Digital Service, to talk about his work creating a Ruby gem that integrates USWDS into a Ruby on Rails application.
 ---
 
-The U.S. Web Design System (USWDS) is a library of design and code guidelines to help agencies create trustworthy, accessible, and consistent digital services. USWDS is being used on over one hundred government sites, with an audience of 120 million users. In this 12th post in our series, we sat down with Jason Garber, front-end web developer at the U.S. Digital Service (USDS)’s Defense Digital Service, to talk about his work creating a [Ruby gem](https://en.wikipedia.org/wiki/RubyGems) for the new [Move.mil](https://www.move.mil/) that integrates USWDS into a Ruby on Rails application.
+The U.S. Web Design System (USWDS) is a library of design and code guidelines to help agencies create trustworthy, accessible, and consistent digital services. USWDS is being used on over one hundred government sites, with an audience of 120 million users. In this 12th post in our series, we sat down with Jason Garber, front-end web developer at the U.S. Digital Service (USDS)’s Defense Digital Service, to talk about his work creating a [Ruby gem [wikipedia.org]](https://en.wikipedia.org/wiki/RubyGems) for the new [Move.mil](https://www.move.mil/) that integrates USWDS into a Ruby on Rails application.
 
 
 **USWDS:** How did you hear about the U.S. Web Design System?
@@ -34,7 +34,7 @@ As we were looking to see how we could most easily integrate USWDS, I found an e
 
 **USWDS:** Is there anything USWDS team could do to help you in your efforts?
 
-**Garber:** Nothing springs to mind: the documentation is great, Fractal is coming along, and being in the [#uswds-public Slack channel](https://chat.18f.gov/) is fantastic. I don’t participate a ton in there, but it’s nice to see the conversation. If I do have a quick question, it’s a great alternative to filing a GitHub issue and I appreciate it.
+**Garber:** Nothing springs to mind: the documentation is great, Fractal is coming along, and being in the [#uswds-public Slack channel [18f.gov]](https://chat.18f.gov/) is fantastic. I don’t participate a ton in there, but it’s nice to see the conversation. If I do have a quick question, it’s a great alternative to filing a GitHub issue and I appreciate it.
 
 I’m pretty happy with the level of engagement from USWDS team. They have been pretty responsive answering questions. The conversation so far has been very welcoming and helpful. It’s great seeing so many people who are actually involved in building USWDS, also responding to questions.
 

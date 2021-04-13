@@ -1,5 +1,5 @@
 - **Indicate where a user is in the process.** Use a color and text treatment for the current step segment that is distinct from both the completed and pending step segments. The current segment should be the most visually prominent segment in the step indicator. Pending segments should be the least visually prominent of the segments, but should still maintain accessible contrast and not appear disabled.
 - **Use short or single-word labels.** If labelling the step indicators, stick to very short words.
-- **Provide navigation separately.** Use navigation like a [button group](){{ site.baseurl }}/components/button-group to step forward and backward through a form.
+- **Provide navigation separately.** Use navigation like a [button group]({{ site.baseurl }}/components/button-group) to step forward and backward through a form.
 - **Place a heading directly below the step indicator.** Each step needs an explicit heading. The step indicator segments (even with labels and counters) are not sufficient as a heading for a page or screen.
 - **Display step and total left of the heading.** Using text like "[step] of [total]" next to the heading reinforces the number of total steps and helps users keep track of their location in the overall process.

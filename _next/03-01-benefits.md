@@ -15,7 +15,7 @@ quote_color: "next-red-medium"
 chapter: false
 parent: Findings
 
-conversation_starters: 
+conversation_starters:
   - |-
     **How might we** communicate the value of the design system more effectively to new customers?
   - |-
@@ -102,7 +102,7 @@ There are also questions of customization: can components or colors be customize
 * footnotes will be placed here. This line is necessary
 {:footnotes}
 
-[^5]: 21st Century Integrated Digital Experience Act. (2020, August 31). Retrieved January 06, 2021, from <https://digital.gov/resources/21st-century-integrated-digital-experience-act/>
+[^5]: 21st Century Integrated Digital Experience Act. (2020, August 31). Retrieved January 06, 2021, from [https://digital.gov/resources/21st-century-integrated-digital-experience-act/ [digital.gov]](https://digital.gov/resources/21st-century-integrated-digital-experience-act/)
 
 
 </div>

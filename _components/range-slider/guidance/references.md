@@ -1,2 +1,2 @@
-- [Slider Design: Rules of Thumb](https://www.nngroup.com/articles/gui-slider-controls/) [Nielsen Norman Group]
-- [Four Dangerous Navigation Approaches that Can Increase Cognitive Strain](http://www.nngroup.com/articles/navigation-cognitive-strain/) [Nielsen Norman Group; See example #4]
+- [Slider Design: Rules of Thumb [nngroup.com]](https://www.nngroup.com/articles/gui-slider-controls/) [Nielsen Norman Group]
+- [Four Dangerous Navigation Approaches that Can Increase Cognitive Strain [nngroup.com]](http://www.nngroup.com/articles/navigation-cognitive-strain/) [Nielsen Norman Group; See example #4]

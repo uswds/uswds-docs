@@ -22,7 +22,7 @@ redirect_from:
 You can read more about USWDS in our [News and updates]({{ site.baseurl }}/whats-new/updates/), where we cover the
 latest development releases as well as interviews with the teams from across
 government who have successfully implemented USWDS at their agencies.
-You can read some older posts on the [18F Blog](https://18f.gsa.gov/tags/web-design-system/).
+You can read some older posts on the [18F Blog [gsa.gov]](https://18f.gsa.gov/tags/web-design-system/).
 
 <a href="{{ site.baseurl }}/whats-new/updates/" class="usa-button site-button">Read the latest blog posts</a>
 {% endcapture %}
@@ -32,7 +32,7 @@ You can read some older posts on the [18F Blog](https://18f.gsa.gov/tags/web-des
 
 Interested in seeing who else is using USWDS? We
 maintain a list of sites in our GitHub repo. Feel free to
-[open an issue](https://github.com/uswds/uswds-assets/issues/new)
+[open an issue [github.com]](https://github.com/uswds/uswds-assets/issues/new)
 or [email us](mailto:uswds@support.digitalgov.gov) if you’d like to add your
 project to our list.
 

@@ -27,11 +27,11 @@ Our primary research goals were to:
 - **Develop new USWDS components** to support agency emergency response efforts
 
 
-Taking action on what we learned from the research, we created and updated several design system components and templates to address the common needs agencies faced. These updates are included in [Release 2.10.0]({{ site.baseurl }}/about/releases/#version-2100) and you can learn more about them in our [December 2020 monthly call](https://www.youtube.com/watch?v=OhtiTfKAIRw&feature=emb_logo).
+Taking action on what we learned from the research, we created and updated several design system components and templates to address the common needs agencies faced. These updates are included in [Release 2.10.0]({{ site.baseurl }}/about/releases/#version-2100) and you can learn more about them in our [December 2020 monthly call [youtube.com]](https://www.youtube.com/watch?v=OhtiTfKAIRw&feature=emb_logo).
 
 ## Research themes and insights
 
-We took quotes and highlights from the interviews to create data points. Using an [affinity map](https://methods.18f.gov/decide/affinity-mapping/) to group similar data points together, we assigned an overarching theme to each group and identified high-level insights that focused the challenges into more actionable solutions.
+We took quotes and highlights from the interviews to create data points. Using an [affinity map [18f.gov]](https://methods.18f.gov/decide/affinity-mapping/) to group similar data points together, we assigned an overarching theme to each group and identified high-level insights that focused the challenges into more actionable solutions.
 
 
 <div class="margin-top-4 margin-bottom-5">
@@ -143,11 +143,11 @@ Mobile devices often become a primary source of connection in an emergency. Agen
 
 ## How we created components
 
-After a few weeks of research and user interviews, we used themes and insights from those interviews to generate and gather over 60 component and pattern ideas. We then conducted a prioritization workshop where design, engineering, product, and stakeholders worked collaboratively to understand the effort and value of each idea. Honing in on easy wins and strategic initiatives, we prioritized the components in the [sprint backlog](https://github.com/orgs/uswds/projects/5) and started creating them.
+After a few weeks of research and user interviews, we used themes and insights from those interviews to generate and gather over 60 component and pattern ideas. We then conducted a prioritization workshop where design, engineering, product, and stakeholders worked collaboratively to understand the effort and value of each idea. Honing in on easy wins and strategic initiatives, we prioritized the components in the [sprint backlog [github.com]](https://github.com/orgs/uswds/projects/5) and started creating them.
 
 Additionally, we outlined a component creation process to ensure each component was thoroughly researched, iterated on, and emerged from a highly collaborative process, including getting feedback from customers and other stakeholders.
 
-For every component, we conducted a landscape analysis, created low- and high-fidelity designs, built prototypes, drafted and refined guidance, conducted accessibility reviews, and solicited feedback from the [USWDS community]({{ site.baseurl }}/about/community/) and Digital.gov’s [user experience community](https://digital.gov/communities/user-experience/).
+For every component, we conducted a landscape analysis, created low- and high-fidelity designs, built prototypes, drafted and refined guidance, conducted accessibility reviews, and solicited feedback from the [USWDS community]({{ site.baseurl }}/about/community/) and Digital.gov’s [user experience community [digital.gov]](https://digital.gov/communities/user-experience/).
 
 ## What’s next?
 

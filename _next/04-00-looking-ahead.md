@@ -51,9 +51,9 @@ We’ve identified specific opportunity areas that will move us closer to a desi
 
 2. Provide more robust guidance and support to get started with the design system
 
-3. Better leverage related efforts within the [Technology Transformation Services](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services) (TTS) and broader government digital services community
+3. Better leverage related efforts within the [Technology Transformation Services [gsa.gov]](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services) (TTS) and broader government digital services community
 
-We’ll provide regular updates on our progress in [monthly calls](https://digital.gov/events/), the [public Slack channel]({{ site.baseurl }}/about/community/), and the [product roadmap]({{ site.baseurl }}/about/product-roadmap/).
+We’ll provide regular updates on our progress in [monthly calls [digital.gov]](https://digital.gov/events/), the [public Slack channel]({{ site.baseurl }}/about/community/), and the [product roadmap]({{ site.baseurl }}/about/product-roadmap/).
 
 
 </div>
@@ -70,7 +70,7 @@ We’ll provide regular updates on our progress in [monthly calls](https://digit
 * footnotes will be placed here. This line is necessary
 {:footnotes }
 
-[^8]: Dotgov Data - List of federal .gov domains. (n.d.). Retrieved January 06, 2021, from <https://home.dotgov.gov/data/>
+[^8]: Dotgov Data - List of federal .gov domains. (n.d.). Retrieved January 06, 2021, from [https://home.dotgov.gov/data/ [dotgov.gov]](https://home.dotgov.gov/data/)
 
 </div>
     </div>

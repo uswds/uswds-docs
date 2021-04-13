@@ -145,6 +145,9 @@ ignore:
     - uswds > gulp-sass > node-sass:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+      gulp-sass > node-sass:
+        reason: No available upgrade or patch.
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.905Z'
@@ -170,6 +173,9 @@ ignore:
     - uswds > gulp-sass > node-sass:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+      gulp-sass > node-sass:
+        reason: No available upgrade or patch.
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.905Z'
@@ -195,6 +201,9 @@ ignore:
     - uswds > gulp-sass > node-sass:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+      gulp-sass > node-sass:
+        reason: No available upgrade or patch.
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.905Z'
@@ -220,6 +229,9 @@ ignore:
     - uswds > gulp-sass > node-sass:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+      gulp-sass > node-sass:
+        reason: No available upgrade or patch.
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.906Z'
@@ -245,6 +257,9 @@ ignore:
     - uswds > gulp-sass > node-sass:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+      gulp-sass > node-sass:
+        reason: No available upgrade or patch.
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.906Z'
@@ -289,6 +304,9 @@ ignore:
     - uswds > gulp-sass > node-sass:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+      gulp-sass > node-sass:
+        reason: No patch available
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.906Z'
@@ -314,6 +332,9 @@ ignore:
     - uswds > gulp-sass > node-sass:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+      gulp-sass > node-sass:
+        reason: No patch available
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.906Z'
@@ -339,6 +360,9 @@ ignore:
     - uswds > gulp-sass > node-sass:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+      gulp-sass > node-sass:
+        reason: No patch available
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.906Z'
@@ -364,6 +388,9 @@ ignore:
     - uswds > gulp-sass > node-sass:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+      gulp-sass > node-sass:
+        reason: No patch available
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.906Z'
@@ -389,6 +416,9 @@ ignore:
     - uswds > gulp-sass > node-sass:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+      gulp-sass > node-sass:
+        reason: No patch available
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.906Z'
@@ -414,6 +444,9 @@ ignore:
     - uswds > gulp-sass > node-sass:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+      gulp-sass > node-sass:
+        reason: No patch available
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.906Z'
@@ -439,6 +472,9 @@ ignore:
     - uswds > gulp-sass > node-sass:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+      gulp-sass > node-sass:
+        reason: No patch available
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.906Z'
@@ -1001,7 +1037,7 @@ ignore:
   SNYK-JS-NODESASS-1059081:
     - gulp-sass > node-sass:
         reason: No available upgrade or patch.
-        expires: '2021-04-04T20:28:57.894Z'
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.905Z'
@@ -1011,7 +1047,7 @@ ignore:
   SNYK-JS-NODESASS-535500:
     - gulp-sass > node-sass:
         reason: No available upgrade or patch.
-        expires: '2021-04-04T20:28:57.894Z'
+        expires: '2021-05-07T20:36:21.053Z'
     - uswds > gulp-sass > node-sass:
         reason: None given
         expires: '2021-03-21T22:33:04.905Z'
@@ -1536,15 +1572,15 @@ ignore:
     - gulp-sass > node-sass > meow > normalize-package-data > hosted-git-info:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
-      gulp-sass > node-sass > meow > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
-        reason: No direct upgrade or patch.
-        expires: '2021-04-23T15:51:58.850Z'
     - uswds > cac > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
     - gulp > gulp-cli > yargs > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
         reason: No direct upgrade or patch.
         expires: '2021-04-23T15:37:45.512Z'
+    - gulp-sass > node-sass > meow > read-pkg-up > read-pkg > normalize-package-data > hosted-git-info:
+        reason: No direct upgrade or patch.
+        expires: '2021-04-23T15:51:58.850Z'
   SNYK-JS-LODASHTEMPLATE-1088054:
     - uswds > autolinker > gulp-header > lodash.template:
         reason: No direct upgrade or patch.

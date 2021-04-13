@@ -6,7 +6,7 @@ tags:
 - design
 category: About
 ---
-The U.S. Web Design Standards team continues to sit down with various agencies who are using the Standards. In this fourth post in our series, we met with the team at the [Lab@OPM](https://lab.opm.gov/) and learned how they used the Standards to refresh [USAJOBS](https://www.usajobs.gov/).
+The U.S. Web Design Standards team continues to sit down with various agencies who are using the Standards. In this fourth post in our series, we met with the team at the [Lab@OPM [opm.gov]](https://lab.opm.gov/) and learned how they used the Standards to refresh [USAJOBS [usajobs.gov]](https://www.usajobs.gov/).
 
 **USWDS:** How did your team find out about the Web Design Standards?
 
@@ -49,4 +49,4 @@ Apply the Standards, see if people like them better. Do a usability test. Pick t
 
 ---
 
-We’re looking to learn more [from agencies that have used the Standards](/getting-started/showcase/); if you’re interested in talking to us about your experience or have any feedback, feel free to send us an email at [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov). You can also chat with the team in the new [public Slack channel for the Standards](https://chat.18f.gov/)!
+We’re looking to learn more [from agencies that have used the Standards](/getting-started/showcase/); if you’re interested in talking to us about your experience or have any feedback, feel free to send us an email at [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov). You can also chat with the team in the new [public Slack channel for the Standards [18f.gov]](https://chat.18f.gov/)!

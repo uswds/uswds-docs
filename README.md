@@ -1,6 +1,6 @@
 # U.S. Web Design System documentation
 
-This repo includes code and documentation for the U.S. Web Design System website. For information on USWDS (components) themselves, please visit our [uswds](https://github.com/uswds/uswds) Github repo.
+This repo includes code and documentation for the U.S. Web Design System website. For information on USWDS (components) themselves, please visit our [uswds [github.com]](https://github.com/uswds/uswds) Github repo.
 
 Note that this README includes steps to pull the latest version of USWDS into your local instance of the documentation.
 
@@ -12,14 +12,14 @@ The U.S. Web Design System documentation is built using Jekyll for the file fram
 
 Recommended before install:
 
-1. Ruby Version Manager - RVM [Installation guides](https://rvm.io/rvm/install)
-1. Node Version Manager - NVM [Installation guides](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Ruby Version Manager - RVM [Installation guides [rvm.io]](https://rvm.io/rvm/install)
+1. Node Version Manager - NVM [Installation guides [github.com]](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 You will need to have the following installed on your machine before following the commands below:
 
-1. Ruby v2.2.2+, [Installation guides](https://www.ruby-lang.org/en/documentation/installation/)
-1. Node v4.2.3+, [Installation guides](https://nodejs.org/en/download/)
-1. Bundler v1.12.3+, [Installation guides](http://bundler.io/v1.13/guides/using_bundler_in_application.html#getting-started---installing-bundler-and-bundle-init)
+1. Ruby v2.2.2+, [Installation guides [ruby-lang.org]](https://www.ruby-lang.org/en/documentation/installation/)
+1. Node v4.2.3+, [Installation guides [nodejs.org]](https://nodejs.org/en/download/)
+1. Bundler v1.12.3+, [Installation guides [bundler.io]](http://bundler.io/v1.13/guides/using_bundler_in_application.html#getting-started---installing-bundler-and-bundle-init)
 1. Chrome v59 or higher (v60 if on Windows)
 1. Python v2.7* (For node-gyp dependency)
 
@@ -27,7 +27,7 @@ You will need to have the following installed on your machine before following t
 
 ### Building the documentation with gulp
 
-Some parts of the documentation are built using [gulp](http://gulpjs.com/).
+Some parts of the documentation are built using [gulp [gulpjs.com]](http://gulpjs.com/).
 
 To work on the site, switch to your local copy of the repository in terminal then run the following command to install project dependencies:
 
@@ -59,7 +59,7 @@ Here are a few other utility commands you may find useful:
 
 Sometimes you will want to use the latest version of the `uswds` repo. Follow these steps to do so:
 
-1. Clone the latest version of the [`uswds` repo](https://github.com/uswds/uswds/tree/develop).
+1. Clone the latest version of the [`uswds` repo [github.com]](https://github.com/uswds/uswds/tree/develop).
 1. Run `npm install` to install the dependencies required for the package in the `uswds` directory.
 1. Run `npm run build` to create the built version of USWDS in the `uswds` directory.
 1. Run `npm link` in the _root level_ of the `uswds` directory on your local machine.
@@ -73,11 +73,11 @@ You are now linked and using the local version of USWDS. To unlink this version,
 
 ### Fractal components
 
-USWDS uses the [fractal design system builder](http://fractal.build/) to organize and document the components. This documentation site pulls the components from fractal to showcase them on the site. This is done with a custom `fractal_component` Jekyll tag, which takes the full name of the fractal component as a parameter.
+USWDS uses the [fractal design system builder [fractal.build]](http://fractal.build/) to organize and document the components. This documentation site pulls the components from fractal to showcase them on the site. This is done with a custom `fractal_component` Jekyll tag, which takes the full name of the fractal component as a parameter.
 
 ### Deployment and previews
 
-This site is deployed on [Federalist](https://federalist.18f.gov/), which automatically builds the public site whenever commits are pushed to `main`. Federalist also builds public previews for each branch pushed to GitHub.
+This site is deployed on [Federalist [18f.gov]](https://federalist.18f.gov/), which automatically builds the public site whenever commits are pushed to `main`. Federalist also builds public previews for each branch pushed to GitHub.
 
 ### Updating the USWDS version
 
@@ -113,7 +113,7 @@ See the [`_posts` directory](_posts/#readme) for instructions on adding updates.
 Some of the content on the documentation site is dynamically fetched from
 GitHub. If you want to ensure that its API won't rate-limit you, you
 may want to
-[create an access token](https://github.com/blog/1509-personal-api-tokens)
+[create an access token [github.com]](https://github.com/blog/1509-personal-api-tokens)
 and assign it to your `GITHUB_ACCESS_TOKEN` environment variable.
 
 The dynamic content is stored in the `.jekyll_get_cache` directory and

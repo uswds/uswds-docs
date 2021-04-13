@@ -9,7 +9,7 @@ redirect_from:
   - /contracts
 ---
 
-The [21st Century Integrated Digital Experience Act](https://digital.gov/resources/21st-century-integrated-digital-experience-act/)
+The [21st Century Integrated Digital Experience Act [digital.gov]](https://digital.gov/resources/21st-century-integrated-digital-experience-act/)
 (21st Century IDEA) requires all executive branch agencies to:
 
 - modernize their websites
@@ -18,7 +18,7 @@ The [21st Century Integrated Digital Experience Act](https://digital.gov/resourc
 - improve customer experience
 - standardize and transition to centralized shared services
 
-It also requires agencies to comply with [website standards](https://designsystem.digital.gov/website-standards/) to improve federal websites and digital services.
+It also requires agencies to comply with [website standards]({{ site.baseurl }}/website-standards/) to improve federal websites and digital services.
 
 Use the approaches below as a starting point for any solicitations with requirements related to websites and digital services.
 
@@ -26,7 +26,7 @@ Use the approaches below as a starting point for any solicitations with requirem
 
 21st Century IDEA codifies high-level requirements for federal websites and digital services. Additionally, many agencies have more specific requirements in their digital strategy and other guidelines.
 
-Consult with your agency’s Chief Information Officer and [Federal Web Council representative](https://digital.gov/resources/federal-web-council/#current-council-members) regarding agency requirements for websites and digital services, including 21st Century IDEA.
+Consult with your agency’s Chief Information Officer and [Federal Web Council representative [digital.gov]](https://digital.gov/resources/federal-web-council/#current-council-members) regarding agency requirements for websites and digital services, including 21st Century IDEA.
 
 Then work with your contracting officer (CO) to determine your acquisition strategy, including customizing the draft language below to meet your needs and requirements.
 
@@ -45,7 +45,7 @@ In new solicitations, you can include requirements for 21st Century IDEA in the 
     </button>
   </h4>
   <div id="example-1" class="usa-accordion__content font-mono-xs padding-2 radius-bottom-md">
-    <p>Any website that is developed, modernized, enhanced, maintained, or otherwise delivered as a result of this contract shall be in compliance with the website standards of the Technology Transformation Services of the General Services Administration at <a href="https://designsystem.digital.gov/website-standards/">https://designsystem.digital.gov/website-standards/</a>.</p>
+    <p>Any website that is developed, modernized, enhanced, maintained, or otherwise delivered as a result of this contract shall be in compliance with the website standards of the Technology Transformation Services of the General Services Administration at <a href="{{ site.baseurl }}/website-standards/">https://designsystem.digital.gov/website-standards/</a>.</p>
     <p>The U.S. Web Design System (USWDS) shall be adopted incrementally over the life of the requirement and the contractor shall prioritize implementation to align with the priorities identified within the Performance Work Statement.</p>
   </div>
 </div>
@@ -63,7 +63,7 @@ You can ask your CO to amend open solicitations to include requirements for 21st
     </button>
   </h4>
   <div id="example-2" class="usa-accordion__content font-mono-xs padding-2 radius-bottom-md">
-    <p>This solicitation is hereby amended to include the website standards of the Technology Transformation Services of the General Services Administration (<a href="https://designsystem.digital.gov/website-standards/">https://designsystem.digital.gov/website-standards/</a>) in accordance with the 21st Century Integrated Digital Experience Act.</p>
+    <p>This solicitation is hereby amended to include the website standards of the Technology Transformation Services of the General Services Administration (<a href="{{ site.baseurl }}/website-standards/">https://designsystem.digital.gov/website-standards/</a>) in accordance with the 21st Century Integrated Digital Experience Act.</p>
     <p>The U.S. Web Design System (USWDS) shall be adopted incrementally over the life of the requirement and the contractor shall prioritize implementation to align with the priorities identified within the Performance Work Statement.</p>
   </div>
 </div>
@@ -96,7 +96,7 @@ You can use evaluation factors to select the best vendor by evaluating their abi
       <tbody>
       <tr>
         <th scope="row">Accessible</th>
-        <td>be accessible to individuals with disabilities in accordance with <a href="https://www.section508.gov/">Section 508</a></td>
+        <td>be accessible to individuals with disabilities in accordance with <a href="https://www.section508.gov/">Section 508 [section508.gov]</a></td>
       </tr>
       <tr>
         <th scope="row">Consistent</th>
@@ -161,7 +161,7 @@ You can use evaluation factors to select the best vendor by evaluating their abi
         <th scope="row">Accessible</th>
         <td>
         be accessible to individuals with disabilities in accordance with
-        <a href="https://www.section508.gov/">Section 508</a>
+        <a href="https://www.section508.gov/">Section 508 [section508.gov]</a>
         </td>
       </tr>
       <tr>
@@ -218,18 +218,18 @@ Work with your CO to select the best evaluation factor and customize the draft l
 
 For the evaluation scenario, you can use it as an “all or nothing” factor (meaning, price is the only other factor evaluated by the government), or it could be pared down and used alongside other evaluation factors, such as past performance, experience, and price.
 
-Provide as many user scenarios as needed to describe your requirements. A user scenario is a method for telling a story about a user’s interaction with your product, service, or website, focusing on the what, how, and why. Check out the [user scenarios](https://methods.18f.gov/decide/user-scenarios/) card in 18F Methods for more information on how to write scenarios.
+Provide as many user scenarios as needed to describe your requirements. A user scenario is a method for telling a story about a user’s interaction with your product, service, or website, focusing on the what, how, and why. Check out the [user scenarios [18f.gov]](https://methods.18f.gov/decide/user-scenarios/) card in 18F Methods for more information on how to write scenarios.
 
 ## Accessibility requirements
 Accessibility is not only the law, it’s also fundamental to a great digital experience. To ensure your technology is usable by all, regardless of ability, address accessibility and other requirements up-front in all your IT-related contracts and purchases.
 
-You can find sample procurement language in the [Accessibility Requirements Tool](https://www.section508.gov/buy/accessibility-requirements-tool).
+You can find sample procurement language in the [Accessibility Requirements Tool [section508.gov]](https://www.section508.gov/buy/accessibility-requirements-tool).
 
 ### Resources
-- [18F Methods](https://methods.18f.gov/): A guide to putting human-centered design into practice.
-- [Accessibility Requirements Tool](https://www.section508.gov/buy/accessibility-requirements-tool): A step-by-step guide to help you easily identify relevant accessibility requirements from the Revised 508 Standards, and incorporate them into your procurement and contracting documentation.
-- [Agile Acquisitions 101](https://www.fai.gov/media-library/item/agile-acquisitions-101): Online webinar that provides a great foundation to begin. Shares lessons learned, success stories, and examples of where agile acquisition has been successfully implemented in the federal government.
-- [An Agile Software Development Solicitation Guide](https://18f.gsa.gov/2019/08/20/an-agile-software-development-solicitation-guide/): How to contract for agile software development services. In this post, the authors show you how to create a complete solicitation in hours, not months, using 18F’s agile contract format.
-- [Checklist of Requirements for Federal Websites and Digital Services](https://digital.gov/resources/checklist-of-requirements-for-federal-digital-services/): The relevant laws, policies, and regulations for federal agencies.
-- [De-risking guide](https://derisking-guide.18f.gov/): Provides expert, actionable guidance to the public sector for delivering federally-funded, custom technology projects successfully. Includes a section on [deciding what to buy](https://derisking-guide.18f.gov/federal-field-guide/deciding-what-to-buy/).
-- [TechFAR Hub](https://techfarhub.cio.gov/): Practical tools and resources for applying industry best practices to digital service acquisitions.
+- [18F Methods [18f.gov]](https://methods.18f.gov/): A guide to putting human-centered design into practice.
+- [Accessibility Requirements Tool [section508.gov]](https://www.section508.gov/buy/accessibility-requirements-tool): A step-by-step guide to help you easily identify relevant accessibility requirements from the Revised 508 Standards, and incorporate them into your procurement and contracting documentation.
+- [Agile Acquisitions 101 [fai.gov]](https://www.fai.gov/media-library/item/agile-acquisitions-101): Online webinar that provides a great foundation to begin. Shares lessons learned, success stories, and examples of where agile acquisition has been successfully implemented in the federal government.
+- [An Agile Software Development Solicitation Guide [gsa.gov]](https://18f.gsa.gov/2019/08/20/an-agile-software-development-solicitation-guide/): How to contract for agile software development services. In this post, the authors show you how to create a complete solicitation in hours, not months, using 18F’s agile contract format.
+- [Checklist of Requirements for Federal Websites and Digital Services [digital.gov]](https://digital.gov/resources/checklist-of-requirements-for-federal-digital-services/): The relevant laws, policies, and regulations for federal agencies.
+- [De-risking guide [18f.gov]](https://derisking-guide.18f.gov/): Provides expert, actionable guidance to the public sector for delivering federally-funded, custom technology projects successfully. Includes a section on [deciding what to buy [18f.gov]](https://derisking-guide.18f.gov/federal-field-guide/deciding-what-to-buy/).
+- [TechFAR Hub [cio.gov]](https://techfarhub.cio.gov/): Practical tools and resources for applying industry best practices to digital service acquisitions.

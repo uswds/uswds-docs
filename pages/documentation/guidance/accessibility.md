@@ -12,7 +12,7 @@ order: 25
 
 ## Accessibility for Teams
 
-Everyone who works on government websites has a role to play in making federal resources accessible and inclusive. Visit [Accessibility for Teams](https://accessibility.digital.gov/) to learn how to embed accessibility and inclusive design practices into your team’s workflow. Read more: [Introducing Accessibility for Teams](https://18f.gsa.gov/2018/07/10/introducing-accessibility-for-teams/).
+Everyone who works on government websites has a role to play in making federal resources accessible and inclusive. Visit [Accessibility for Teams [digital.gov]](https://accessibility.digital.gov/) to learn how to embed accessibility and inclusive design practices into your team’s workflow. Read more: [Introducing Accessibility for Teams [gsa.gov]](https://18f.gsa.gov/2018/07/10/introducing-accessibility-for-teams/).
 
 ## Hiding and showing content
 
@@ -46,7 +46,7 @@ use case:
       </td>
       <td data-title="Solution">
         <span>
-          Add the boolean <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden"><code>hidden</code></a> attribute to dynamically hide content from all users. <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute">Remove the attribute</a> to show it again.
+          Add the boolean <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden"><code>hidden</code> [mozilla.org]</a> attribute to dynamically hide content from all users. <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute">Remove the attribute [mozilla.org]</a> to show it again.
         </span>
       </td>
     </tr>
@@ -63,7 +63,7 @@ use case:
       </td>
       <td data-title="Solution">
         <span>
-          Use the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden"><code>aria-hidden="true"</code></a> attribute to "hide" content from screen readers while keeping it visually perceivable.
+          Use the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden"><code>aria-hidden="true"</code> [mozilla.org]</a> attribute to "hide" content from screen readers while keeping it visually perceivable.
         </span>
       </td>
     </tr>

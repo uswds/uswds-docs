@@ -41,7 +41,7 @@ subnav:
 USWDS 2 is a major rewrite of the entire codebase and migration can be complicated. We’ve outlined the high-level changes any project will need to implement, followed by more specific component changes and complete release notes from each related release.
 
 {: .site-note }
-**Note:** If you're migrating, expect that every USWDS component on your site will change, and that [USWDS v1](https://v1.designsystem.digital.gov/) functions, mixins, and variables will not work as expected. We will expand and improve this page as we learn from teams that are migrating their own projects. Leave feedback and make suggestions at this site’s [GitHub page](https://github.com/uswds/uswds-site).
+**Note:** If you're migrating, expect that every USWDS component on your site will change, and that [USWDS v1](https://v1.designsystem.digital.gov/) functions, mixins, and variables will not work as expected. We will expand and improve this page as we learn from teams that are migrating their own projects. Leave feedback and make suggestions at this site’s [GitHub page [github.com]](https://github.com/uswds/uswds-site).
 
 ## Summary
 Every component has changed in some way or another from [USWDS v1](https://v1.designsystem.digital.gov/components/) to USWDS v2. There are also some important conceptual differences in v2 — most notably, the introduction of [design tokens]({{ site.baseurl }}/design-tokens/) which, in most cases, are used somewhat differently from [v1](https://v1.designsystem.digital.gov/documentation/developers#sass) variables. Design tokens are at the core of the USWDS 2 design language and we expect that sites will transition toward using these tokens exclusively for their projects, though this may be an incremental process.

@@ -14,7 +14,7 @@ If possible, enable HTTP/2 support on your server for dramatic performance gains
 
 ## What is HTTP/2?
 
-HTTP/2 is the next version of [HTTP], the protocol that powers the web. HTTP/2 was originally known as [SPDY], a protocol invented by Google that was safer, faster, and more efficient than HTTP 1.1. Once SPDY gained traction among browser and server makers, the [Internet Engineering Task Force][IETF] adopted it as the basis for HTTP/2.
+HTTP/2 is the next version of [HTTP [wikipedia.org]](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol), the protocol that powers the web. HTTP/2 was originally known as [SPDY [wikipedia.org]](https://en.wikipedia.org/wiki/SPDY), a protocol invented by Google that was safer, faster, and more efficient than HTTP 1.1. Once SPDY gained traction among browser and server makers, the [Internet Engineering Task Force [ietf.org]][IETF] adopted it as the basis for HTTP/2.
 
 ## How it differs from HTTP 1.1
 
@@ -38,26 +38,24 @@ Under HTTP/2 this pattern effectively becomes an anti-pattern, and using CDNs or
 
 ### Concatenation
 
-Concatenation is the process of combining similar file types into one file, often to reduce the number of HTTP requests necessary for a given page. Concatenating (or "bundling") scripts and stylesheets is most common and easiest to automate, but it's also possible to combine multiple images into a single image, or [sprite](https://css-tricks.com/css-sprites/), which can reduce both the number of HTTP requests and the total page weight by better leveraging image compression algorithms.
+Concatenation is the process of combining similar file types into one file, often to reduce the number of HTTP requests necessary for a given page. Concatenating (or "bundling") scripts and stylesheets is most common and easiest to automate, but it's also possible to combine multiple images into a single image, or [sprite [css-tricks.com]](https://css-tricks.com/css-sprites/), which can reduce both the number of HTTP requests and the total page weight by better leveraging image compression algorithms.
 
-Unlike domain splitting, concatenation is not necessarily an anti-pattern with HTTP/2. Under HTTP/2, it’s good practice to keep individual files small and ensure that resources are only served when needed. That being said, other factors can affect the the speed tradeoffs of individual resources. For example, when Khan Academy served over 300 individual JavaScript files to HTTP/2 users, they saw a degradation in performance due to less efficient compression over multiple files, and server delays related to reading each file from disk. For more information, see [Khan Academy's article](http://engineering.khanacademy.org/posts/js-packaging-http2.htm) and [Smashing Magazine's HTTP/2 guide](https://www.smashingmagazine.com/2016/02/getting-ready-for-http2/).
+Unlike domain splitting, concatenation is not necessarily an anti-pattern with HTTP/2. Under HTTP/2, it’s good practice to keep individual files small and ensure that resources are only served when needed. That being said, other factors can affect the the speed tradeoffs of individual resources. For example, when Khan Academy served over 300 individual JavaScript files to HTTP/2 users, they saw a degradation in performance due to less efficient compression over multiple files, and server delays related to reading each file from disk. For more information, see [Khan Academy's article [khanacademy.org]](http://engineering.khanacademy.org/posts/js-packaging-http2.htm) and [Smashing Magazine's HTTP/2 guide [smashingmagazine.com]](https://www.smashingmagazine.com/2016/02/getting-ready-for-http2/).
 
 Generally speaking, organizing your resources into smaller, logical files rather than bundling them one large file offers the best performance over HTTP/2. The number of files that you can serve over HTTP/2 for a single URL without degrading performance depends heavily on the codebase and the server. **We suggest keeping the number of files below 50 per URL**, as that seems to be the point at which many servers suffer from having to read so many individual files from disk.
 
 ## How to upgrade to HTTP/2
 
-Before upgrading, you should check to see if your server already supports HTTP/2. You can submit any public URL to [this tool "HTTP/2 Test"](https://tools.keycdn.com/http2-test), and it will tell you if that's the case. If not, read on!
+Before upgrading, you should check to see if your server already supports HTTP/2. You can submit any public URL to [this tool "HTTP/2 Test" [keycdn.com]](https://tools.keycdn.com/http2-test), and it will tell you if that's the case. If not, read on!
 
 Upgrading to HTTP/2 requires that you have administrative access to either the server or CDN that hosts your website and its assets. If your site is on a CDN not directly under your control, here are instructions for enabling HTTP/2 on some of the most common CDNs:
 
-- [Akamai](https://community.akamai.com/community/web-performance/blog/2015/01/26/enabling-http2-h2-in-akamai)
-- [Cloudflare](https://www.cloudflare.com/website-optimization/http2/)
-- [Amazon CloudFront](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2/)
+- [Akamai [akamai.com]](https://community.akamai.com/community/web-performance/blog/2015/01/26/enabling-http2-h2-in-akamai)
+- [Cloudflare [clodeflare.com]](https://www.cloudflare.com/website-optimization/http2/)
+- [Amazon CloudFront [amazon.com]](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2/)
 
 ## How to speed up HTTPS
 
-There are several common techniques for improving HTTPS performance under both HTTP 1.1 and HTTP/2. Most of them require direct access to your sever(s) and/or hosting environment, and specific knowledge of the tools or platforms in use. [Optimizing nginx TLS time to first byte](https://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/) describes how to improve HTTPS performance with nginx, but the techniques are applicable in other environments.
+There are several common techniques for improving HTTPS performance under both HTTP 1.1 and HTTP/2. Most of them require direct access to your sever(s) and/or hosting environment, and specific knowledge of the tools or platforms in use. [Optimizing nginx TLS time to first byte [igvita.com]](https://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/) describes how to improve HTTPS performance with nginx, but the techniques are applicable in other environments.
 
-[HTTP]: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
-[SPDY]: https://en.wikipedia.org/wiki/SPDY
 [IETF]: http://www.ietf.org/

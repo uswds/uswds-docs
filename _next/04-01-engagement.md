@@ -15,7 +15,7 @@ quote_color: "next-gray-medium"
 chapter: false
 parent: What’s next
 
-reach_opportunities: 
+reach_opportunities:
   - name: Produce marketing materials
     needs: [ understand ]
     description: |-
@@ -55,7 +55,7 @@ engagement_opportunities:
     needs: [ know ]
     description: |-
       Provide shared benchmarks to help agencies identify strengths and areas of improvement
-  # - name: 
+  # - name:
   #   needs: []
   #   description: |-
   #     text
@@ -101,7 +101,7 @@ We also recommend expanding engagement with existing customers and empowering th
 <aside markdown="1">
 
 ### Building momentum
-In November 2020, the USWDS team presented a webinar hosted by the [CIO Council](https://www.cio.gov/)’s 508 subcommittee to share the purpose, value, and how-to’s of the design system. After the webinar, the 326 attendees (from both in and outside of the federal government) were asked if they would seek additional information about the design system after having attended the event — 69 percent of them reported they strongly agreed or agreed. Hosting more webinars or events in connection with others working in digital fields across government will help to bolster engagement around the design system. (2020 Evaluation Summary, Section 508 Best Practices Webinar)
+In November 2020, the USWDS team presented a webinar hosted by the [CIO Council [cio.gov]](https://www.cio.gov/)’s 508 subcommittee to share the purpose, value, and how-to’s of the design system. After the webinar, the 326 attendees (from both in and outside of the federal government) were asked if they would seek additional information about the design system after having attended the event — 69 percent of them reported they strongly agreed or agreed. Hosting more webinars or events in connection with others working in digital fields across government will help to bolster engagement around the design system. (2020 Evaluation Summary, Section 508 Best Practices Webinar)
 
 </aside>
       </div>

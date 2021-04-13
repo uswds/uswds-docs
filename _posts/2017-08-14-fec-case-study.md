@@ -16,7 +16,7 @@ of the Standards on [fec.gov][].
 
 **Jennifer Thibault:** We knew of the USWDS project early on since it was
 kicked off by a team inside 18F. But, we needed to get out a
-[basic set of pages and content models][612] on fec.gov before the Standards
+[basic set of pages and content models [github.com]][612] on fec.gov before the Standards
 team released their first version.
 
 In 2015, we started with a visual identity audit to show our team what the
@@ -79,4 +79,4 @@ asking questions.
 
 ---
 
-We’re looking to learn more [from agencies that have used the Standards](/getting-started/showcase/); if you’re interested in talking to us about your experience or have any feedback, feel free to send us an email at [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov). You can also chat with the team in the new [public Slack channel for the Standards](https://chat.18f.gov/)!
+We’re looking to learn more [from agencies that have used the Standards](/getting-started/showcase/); if you’re interested in talking to us about your experience or have any feedback, feel free to send us an email at [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov). You can also chat with the team in the new [public Slack channel for the Standards [18f.gov]](https://chat.18f.gov/)!

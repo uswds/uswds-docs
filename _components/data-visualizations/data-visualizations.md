@@ -37,8 +37,8 @@ tags:
   </ul>
   <h4>References</h4>
   <ul class="usa-content-list">
-    <li><a href="https://medium.com/nightingale/how-to-choose-the-colors-for-your-data-visualizations-50b2557fa335">Choosing Colors</a>&nbsp; [medium.com]</li>
-    <li><a href="https://venngage.com/blog/color-blind-friendly-palette/">Color Contrast and Color Blindness</a>&nbsp; [venngage.com]</li>
+    <li><a href="https://medium.com/nightingale/how-to-choose-the-colors-for-your-data-visualizations-50b2557fa335">Choosing Colors [medium.com]</a></li>
+    <li><a href="https://venngage.com/blog/color-blind-friendly-palette/">Color Contrast and Color Blindness [venngage.com]</a></li>
   </ul>
   <h3>Lossless representation</h3>
   <ul class="usa-content-list">
@@ -70,17 +70,17 @@ tags:
     <li><strong>Choose an accessible charting tool.</strong> There are many charting tools available, but not many adequately support accessibility. When using a 3rd-party tool, look for features such as:
       <ul>
         <li>Support for accessible patterns and colors</li>
-        <li><a href="https://www.perkinselearning.org/technology/blog/sonification-sounds-meaning-activity">Sonification as a audio tool for visual impairment and analysis</a>&nbsp; [perkinselearning.org]</li>
+        <li><a href="https://www.perkinselearning.org/technology/blog/sonification-sounds-meaning-activity">Sonification as a audio tool for visual impairment and analysis [perkinselearning.org]</a></li>
         <li>Announcement handling</li>
       </ul>
     </li>
   </ul>
   <h4>References</h4>
   <ul class="usa-content-list">
-    <li><a href="https://accessibility.digital.gov/visual-design/data-visualizations/">Accessibility for Teams</a>&nbsp; [digital.gov]</li>
-    <li><a href="https://www.section508.gov/test">508 testing</a>&nbsp; [section508.gov]</li>
-    <li><a href="https://www.matuzo.at/blog/testing-with-tab/">Accessibility testing with tab key</a>&nbsp; [matuzo.at]</li>
-    <li><a href="https://www.access-board.gov/">United States Access Board</a>&nbsp; [access-board.gov]</li>
+    <li><a href="https://accessibility.digital.gov/visual-design/data-visualizations/">Accessibility for Teams [digital.gov]</a></li>
+    <li><a href="https://www.section508.gov/test">508 testing [section508.gov]</a></li>
+    <li><a href="https://www.matuzo.at/blog/testing-with-tab/">Accessibility testing with tab key [matuzo.at]</a></li>
+    <li><a href="https://www.access-board.gov/">United States Access Board [access-board.gov]</a></li>
   </ul>
 </section>
 
@@ -281,7 +281,7 @@ tags:
       </tr>
     </tbody>
   </table>
-  <p id="source_line">Source: <a href="https://trends.google.com/trends/explore?date=2020-03-01%202020-03-07&geo=US&q=%2Fm%2F07hyk,%2Fm%2F02yy8">Google Trends</a></p>
+  <p id="source_line">Source: <a href="https://trends.google.com/trends/explore?date=2020-03-01%202020-03-07&geo=US&q=%2Fm%2F07hyk,%2Fm%2F02yy8">Google Trends [google.com]</a></p>
   </div>
 
   <h3>What we did in our line chart example</h3>
@@ -294,7 +294,7 @@ tags:
 
   <h3>References</h3>
   <ul class="usa-content-list">
-    <li><a href="https://accessibility.psu.edu/images/charts/">Chart Accessibility guidance</a> &nbsp; [psu.edu]</li>
+    <li><a href="https://accessibility.psu.edu/images/charts/">Chart Accessibility guidance [psu.edu]</a></li>
   </ul>
 
 </section>
@@ -436,7 +436,7 @@ tags:
         </tr>
       </tbody>
     </table>
-    <p id="source_bar">Source: <a href="https://www.nps.gov/aboutus/visitation-numbers.htm">National Park Service</a></p>
+    <p id="source_bar">Source: <a href="https://www.nps.gov/aboutus/visitation-numbers.htm">National Park Service [nps.gov]</a></p>
   </div>
 
   <h3>What we did in our bar chart example</h3>
@@ -449,6 +449,6 @@ tags:
 
   <h3>References</h3>
     <ul class="usa-content-list">
-      <li><a href="https://www.highcharts.com/blog/tutorials/best-chart-accessibility-practices/">Bar chart accessibility practices</a>&nbsp; [highcharts.com]</li>
+      <li><a href="https://www.highcharts.com/blog/tutorials/best-chart-accessibility-practices/">Bar chart accessibility practices  [highcharts.com]</a></li>
     </ul>
 </section>

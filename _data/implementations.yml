@@ -1,144 +1,144 @@
-- name: django-designstandards
+- name: django-designstandards [github.com]
   distribution: Django
   url: https://github.com/department-of-veterans-affairs/django-designstandards
   author:
-    name: Paul Tagliamonte (USDS)
+    name: Paul Tagliamonte (USDS) [github.com]
     url: https://github.com/paultag
-  notes: "This package provides access to USWDS in [Django](https://www.djangoproject.com/) applications."
+  notes: "This package provides access to USWDS in [Django [djangoproject.com]](https://www.djangoproject.com/) applications."
 
-- name: django-uswds-forms
+- name: django-uswds-forms [readthedocs.io]
   distribution: Django
   url: http://django-uswds-forms.readthedocs.io/en/latest/
   author:
-    name: 18F
+    name: 18F [github.com]
     url: https://github.com/18F
   notes: |
     This package provides Django Forms integration with USWDS.
 
-- name: USWDS Drupal theme
+- name: USWDS Drupal theme [drupal.org]
   distribution: Drupal
   url: https://www.drupal.org/project/uswds
   author:
-    name: Brock Fanning
+    name: Brock Fanning [drupal.org]
     url: https://www.drupal.org/u/brockfanning
   notes: "This base theme focuses on tweaking Drupal's markup so that it will work with the USWDS library. Some CSS is added to deal with unavoidable Drupal quirks, but only as a last resort."
 
-- name: uswds-jekyll
+- name: uswds-jekyll [github.com]
   distribution: Jekyll
   url: https://github.com/18f/uswds-jekyll
   author:
-    name: 18F
+    name: 18F [github.com]
     url: https://github.com/18F
-  notes: "A [Jekyll](https://jekyllrb.com/) theme for USWDS."
+  notes: "A [Jekyll [jekyllrb.com]](https://jekyllrb.com/) theme for USWDS."
 
-- name: uswds-simple-sass
+- name: uswds-simple-sass [github.com]
   distribution: npm and gulp
   url: https://github.com/18F/uswds-simple-sass
   author:
-    name: 18F
+    name: 18F [github.com]
     url: https://github.com/18F
   notes: |
     This is a simple Node JS-based "starter project" that uses gulp and gulp-sass to
     power a development workflow for a one-page site that leverages USWDS'
     SASS. Note that this is a starter project and *not* a reusable package.
 
-- name: 18f-contrib-web-design-standards
+- name: 18f-contrib-web-design-standards [github.com]
   distribution: npm and node-sass
   url: https://github.com/openbrian/18f-contrib-web-design-standards
   author:
-    name: Brian DeRocher
+    name: Brian DeRocher [github.com]
     url: https://github.com/openbrian
   notes: "A node-sass based wrapper of the U.S. Web Design System library."
 
-- name: NuGet web-design-standards
+- name: NuGet web-design-standards [nuget.org]
   distribution: NuGet
   url: https://www.nuget.org/packages/web-design-standards/
   author:
-    name: Abdul Ahad Monty
+    name: Abdul Ahad Monty [nuget.org]
     url: https://www.nuget.org/profiles/montyaahad
-  notes: "The NuGet Package has been created to access the library easily from Visual Studio [NuGet Package Manager](https://www.nuget.org/)."
+  notes: "The NuGet Package has been created to access the library easily from Visual Studio [NuGet Package Manager [nuget.org]](https://www.nuget.org/)."
 
-- name: uswds-rails
+- name: uswds-rails [github.com]
   distribution: Rails gem
   url: https://github.com/18F/uswds-rails-gem
   author:
-    name: 18F
+    name: 18F [github.com]
     url: https://github.com/18F
-  notes: "This [Ruby on Rails](http://rubyonrails.org/) gem is not currently maintained."
+  notes: "This [Ruby on Rails [rubyonrails.org]](http://rubyonrails.org/) gem is not currently maintained."
 
-- name: react-uswds
+- name: react-uswds [github.com]
   distribution: React
   id: react-uswds
   url: https://github.com/trussworks/react-uswds
   author:
-    name: Truss
+    name: Truss [github.com]
     url: https://github.com/trussworks
   version: 1.6.1
   notes: "A front-end component library aimed at implementing USWDS design patterns in React."
 
-- name: us_web_design_standards gem
+- name: us_web_design_standards gem [github.com]
   distribution: Ruby gem
   url: https://github.com/18F/us_web_design_standards_gem
   author:
-    name: 18F
+    name: 18F [github.com]
     url: https://github.com/18F
-  notes: "**This gem has been deprecated in favor of the [Rails gem](#rails-gem).** Please [let us know](https://github.com/18F/us_web_design_standards_gem/issues/new) if you'd like to adopt it."
+  notes: "**This gem has been deprecated in favor of the [Rails gem](#rails-gem).** Please [let us know [github.com]](https://github.com/18F/us_web_design_standards_gem/issues/new) if you'd like to adopt it."
 
-- name: uswds-sf-lightning-community
+- name: uswds-sf-lightning-community [github.com]
   distribution: Salesforce Lightning
   url: https://github.com/GSA/uswds-sf-lightning-community
   author:
-    name: GSA IT (Mark Vogelgesang)
+    name: GSA IT (Mark Vogelgesang) [github.com]
     url: https://github.com/GSA/
-  notes: "Allows users to toggle between native Salesforce components/functionality along with custom components built using USWDS. Meets GSA's Guidelines for Digital Presence as well as tenants of [21st Century IDEA](https://digital.gov/resources/21st-century-integrated-digital-experience-act/). View live implementation at [https://labs.gsa.gov](https://labs.gsa.gov)."
+  notes: "Allows users to toggle between native Salesforce components/functionality along with custom components built using USWDS. Meets GSA's Guidelines for Digital Presence as well as tenants of [21st Century IDEA [digital.gov]](https://digital.gov/resources/21st-century-integrated-digital-experience-act/). View live implementation at [https://labs.gsa.gov [gsa.gov]](https://labs.gsa.gov)."
 
-- name: USWDS WebJar
+- name: USWDS WebJar [mvnrepository.com]
   distribution: WebJars
   url: https://mvnrepository.com/artifact/org.webjars/uswds
   author:
-    name: VJ Kapur
+    name: VJ Kapur [github.com]
     url: https://github.com/vjkapur
   notes: "For Java- and JVM-based build tools, such as Maven and Gradle."
 
-- name: Broadcasting Board of Governors WordPress theme
+- name: Broadcasting Board of Governors WordPress theme [github.com]
   distribution: WordPress
   url: https://github.com/BBGInnovate/bbgRedesign
   author:
-    name: Broadcasting Board of Governors (BBG)
+    name: Broadcasting Board of Governors (BBG) [github.com]
     url: https://github.com/BBGInnovate
   notes: "This is not a reusable WordPress theme, but an implementation of USWDS for [bbg.gov](https://www.bbg.gov/)."
 
-- name: Benjamin
+- name: Benjamin [wordpress.org]
   distribution: WordPress
   url: https://wordpress.org/themes/benjamin/
   author:
-    name: Kyle Jennings
+    name: Kyle Jennings [wordpress.org]
     url: https://github.com/kyle-jennings
-  notes: "A WordPress theme built with Automattic's _s, the U.S. Web Design System, and the needs of the people. For additional components and shortcodes, check out the [Franklin](https://wordpress.org/plugins/franklin) plugin."
+  notes: "A WordPress theme built with Automattic's _s, the U.S. Web Design System, and the needs of the people. For additional components and shortcodes, check out the [Franklin [wordpress.org]](https://wordpress.org/plugins/franklin) plugin."
 
-- name: The Standards
+- name: The Standards [github.com]
   distribution: WordPress
   url: https://github.com/LavertyCreative/The-Standards
   author:
-    name: Kyle Laverty
+    name: Kyle Laverty [github.com]
     url: https://github.com/lavekyl
   version:
   notes: "The Standards is a WordPress theme that is based on the U.S. Web Design System."
 
-- name: NASAPress
+- name: NASAPress [github.com]
   distribution: WordPress
   id: nasapress
   url: https://github.com/nasa/nasapress
   author:
-    name: Brandon Ruffridge
+    name: Brandon Ruffridge [github.com]
     url: https://github.com/bruffridge
   version:
-  notes: "A WordPress theme designed for NASA, built on the [Sage starter theme](https://roots.io/sage/), styled using the U.S. Web Design System. While it currently uses the NASA fork of the U.S. Web Design System, this could be swapped out by changing the dependency in package.json from nasawds to uswds."
+  notes: "A WordPress theme designed for NASA, built on the [Sage starter theme [roots.io]](https://roots.io/sage/), styled using the U.S. Web Design System. While it currently uses the NASA fork of the U.S. Web Design System, this could be swapped out by changing the dependency in package.json from nasawds to uswds."
 
-- name: tailwindcss-uswds
+- name: tailwindcss-uswds [github.com]
   distribution: Tailwind CSS plugin
   url: https://github.com/hursey013/tailwindcss-uswds
   author:
-    name: Brian Hurst
+    name: Brian Hurst [github.com]
     url: https://github.com/hursey013
   notes: "A Tailwind CSS plugin for adding U.S. Web Design System design tokens to supported Tailwind utilities."

@@ -20,7 +20,7 @@ USWDS is a library of code, tools, and guidance to help government teams design 
 
 We’re proud that USWDS currently powers nearly [200 federal websites](https://v2.designsystem.digital.gov/getting-started/showcase/all/) and we’re committed to making the design system work better for _any_ federal website. With USWDS 2.0 we’re introducing a design system that’s built to grow with your needs — to help teams build better, more engaging websites for the American public.
 
-Over the last two years, we’ve listened to the designers and developers using USWDS. We’ve conducted interviews with project teams, listened to public feedback, and paid attention to the issues in our [GitHub repos](https://github.com/uswds/). We’ve conducted our own research on how designers and developers communicate with each other, and the tools they use to prototype. This research and feedback shaped our priorities for USWDS 2.0:
+Over the last two years, we’ve listened to the designers and developers using USWDS. We’ve conducted interviews with project teams, listened to public feedback, and paid attention to the issues in our [GitHub repos [github.com]](https://github.com/uswds/). We’ve conducted our own research on how designers and developers communicate with each other, and the tools they use to prototype. This research and feedback shaped our priorities for USWDS 2.0:
 
 {:.margin-left-neg-205}
 - Encourage modular, iterative, user-centered design
@@ -158,7 +158,7 @@ Layout grids give any website visual coherence. The [USWDS 2.0 layout grid](http
 {:.margin-top-1.text-light}
 ### A free, open source typeface from USWDS
 
-USWDS 2.0 adds built-in support for custom typefaces, and sometimes you need one that’s simple, neutral, and isn’t Helvetica. [Public Sans](https://github.com/uswds/public-sans) is an open source, free license typeface (SIL Open Font License 1.1) designed and maintained by USWDS, adapted from Libre Franklin. Just as with our components, we intend Public Sans to be an example of how to design an accessible open source typeface with contributions and feedback from the public — to deliver a useful, neutral, sans serif and continuously improve it.
+USWDS 2.0 adds built-in support for custom typefaces, and sometimes you need one that’s simple, neutral, and isn’t Helvetica. [Public Sans [github.com]](https://github.com/uswds/public-sans) is an open source, free license typeface (SIL Open Font License 1.1) designed and maintained by USWDS, adapted from Libre Franklin. Just as with our components, we intend Public Sans to be an example of how to design an accessible open source typeface with contributions and feedback from the public — to deliver a useful, neutral, sans serif and continuously improve it.
 
 {:.margin-left-neg-205}
 - A neutral typeface for interfaces, headings, and body text
@@ -189,7 +189,7 @@ USWDS 2.0 is built to grow and designed to adapt. It exists to help teams build 
 - Prepared to grow and adapt to user needs and industry best practices
 
 {:.margin-top-6}
-Like any true 2.0, this is a living product. We’ll continue to test our decisions and assumptions with real-world feedback as it develops and evolves. We encourage you to explore USWDS 2.0, contribute your own code and ideas, and leave feedback on [GitHub](https://github.com/uswds/uswds/issues), [email](mailto:uswds@support.digitalgov.gov), or our [Slack channel](https://chat.18f.gov/). And join our new mailing list by sending an email to [uswds-subscribe-request@listserv.gsa.gov](mailto:uswds-subscribe-request@listserv.gsa.gov). We’ll use your input to continuously improve the system with ongoing regular releases. We’re listening.
+Like any true 2.0, this is a living product. We’ll continue to test our decisions and assumptions with real-world feedback as it develops and evolves. We encourage you to explore USWDS 2.0, contribute your own code and ideas, and leave feedback on [GitHub [github.com]](https://github.com/uswds/uswds/issues), [email](mailto:uswds@support.digitalgov.gov), or our [Slack channel [18f.gov]](https://chat.18f.gov/). And join our new mailing list by sending an email to [uswds-subscribe-request@listserv.gsa.gov](mailto:uswds-subscribe-request@listserv.gsa.gov). We’ll use your input to continuously improve the system with ongoing regular releases. We’re listening.
 
 ---
 

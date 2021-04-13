@@ -16,7 +16,7 @@ redirect_from:
 
 <p class="site-text-intro">Here you’ll find our release notes — summaries of bug fixes, new features, and other updates introduced in each release.</p>
 
-Have suggestions for a new feature or bug fix? [Open an issue](https://github.com/uswds/uswds/issues/new) in our repo.
+Have suggestions for a new feature or bug fix? [Open an issue [github.com]](https://github.com/uswds/uswds/issues/new) in our repo.
 
 {% for release in site.data.releases %}
 

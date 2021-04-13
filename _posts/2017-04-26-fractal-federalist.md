@@ -22,8 +22,8 @@ category: About
 
 ## Fractal
 
-[Fractal] is a powerful and flexible framework for building interactive
-component libraries. It's similar to [Jekyll][] (which we use to publish this
+[Fractal [fractal.build]][Fractal] is a powerful and flexible framework for building interactive
+component libraries. It's similar to [Jekyll [jekyllrb.com]][Jekyll] (which we use to publish this
 site) in one key respect: It operates primarily on simple file naming
 conventions. Organize your files in a specific way, using the content and data
 formats it understands, and it will generate a web site automatically.
@@ -165,8 +165,8 @@ https://unpkg.com/uswds@{VERSION}/dist/{FILENAME}
 Having these public, predictable URLs make it easier for us to create test
 cases with "live-coding" tools such as [JSFiddle](https://jsfiddle.net) and
 [CodePen](https://codepen.io). We used JSFiddle to create a [live test
-case](https://jsfiddle.net/47Lpu62z/9/) for [this accordion
-bug](https://github.com/uswds/uswds/issues/1762) that references
+case [jsfiddle.net]](https://jsfiddle.net/47Lpu62z/9/) for [this accordion
+bug [github.com]](https://github.com/uswds/uswds/issues/1762) that references
 the JavaScript from a branch to demonstrate the proposed fix. In this case, the
 reporter of the issue was able to download that same script and confirm the fix
 on their project!

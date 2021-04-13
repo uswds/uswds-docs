@@ -28,7 +28,7 @@ tags:
 <h2 id="typesetting-with-uswds">Typesetting with USWDS</h2>
 <p>Typesetting controls the readability of a text with the size, style, and spacing of its type. It’s a function of microtypography (how text is styled within a text block) and macrotypography (how content elements are arranged on the page). The more readable a text the more easily users can understand its content. Text with poor readability turns off readers and can make it challenging for them to stay focused.</p>
 <p>In USWDS we control typesetting values with a token system. You can read more about typesetting tokens in the <a href="{{ site.baseurl }}/design-tokens/typesetting/">Typesetting tokens</a> section and in the <a href="{{ site.baseurl }}/utilities/">Utilities</a> section.</p>
-<p><a href="https://accessibility.digital.gov/visual-design/typography/"> Accessibility for Teams</a> also provides good guidance around typesetting.</p>
+<p><a href="https://accessibility.digital.gov/visual-design/typography/"> Accessibility for Teams [digital.gov]</a> also provides good guidance around typesetting.</p>
 
 ### Font size
 
@@ -138,7 +138,7 @@ Letterspacing is the spacing between individual letterforms in a block of text. 
 <h3 class="usa-heading-alt">Public Sans</h3>
 <div class="grid-row grid-gap">
   <div class="tablet:grid-col">
-    <p><a href="https://github.com/uswds/public-sans">Public Sans</a> is an open-source sans serif typeface designed and maintained by USWDS and derived from <a href="https://github.com/impallari/Libre-Franklin">Libre Franklin</a>. It is a strong, neutral, principles-driven typeface for text or display based on a traditional American form. (The Franklin form is most noticeable in the two-story design of the “g” character.) It uses metrics similar to common system fonts for smoother progressive enhancement. It has a plain, straightforward style, appropriate for interfaces and running text. Its large x-height makes it legible at small sizes. It features a broad range of weights — and its heavier weights have tighter letterspacing than its lighter weights, meaning running text (which tends to be relatively small) is spaced more generously and headings (which tend to be relatively large) are more compact. It has tabular numerals for aligning numbers in tables.</p>
+    <p><a href="https://github.com/uswds/public-sans">Public Sans [github.com]</a> is an open-source sans serif typeface designed and maintained by USWDS and derived from <a href="https://github.com/impallari/Libre-Franklin">Libre Franklin [github.com]</a>. It is a strong, neutral, principles-driven typeface for text or display based on a traditional American form. (The Franklin form is most noticeable in the two-story design of the “g” character.) It uses metrics similar to common system fonts for smoother progressive enhancement. It has a plain, straightforward style, appropriate for interfaces and running text. Its large x-height makes it legible at small sizes. It features a broad range of weights — and its heavier weights have tighter letterspacing than its lighter weights, meaning running text (which tends to be relatively small) is spaced more generously and headings (which tend to be relatively large) are more compact. It has tabular numerals for aligning numbers in tables.</p>
   </div>
   <div class="typography-lang-intro tablet:grid-col font-alt-md">
     <span class="text-huge">Aa</span>

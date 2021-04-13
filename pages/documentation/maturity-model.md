@@ -21,7 +21,7 @@ subnav:
       <div class="padding-top-2">
       <h2 class="font-lang-lg margin-top-0 line-height-sans-2">You don’t need to adopt the design system all at once.</h2>
       <p>Adopt the design system incrementally through the levels of the USWDS maturity model. Your project can progress both through higher levels of maturity and with more comprehensive maturity at each level. Most importantly, using the design system is about integrating the <a href="{{ site.baseurl }}/design-principles">USWDS Design Principles</a>, common goals that align teams across government and serve as an evaluative lens for design and implementation decisions.</p>
-      <p>As you adopt and adapt the design system, be sure to contribute back to the system. Use the <a href="https://github.com/uswds/uswds">USWDS GitHub page</a> to:</p>
+      <p>As you adopt and adapt the design system, be sure to contribute back to the system. Use the <a href="https://github.com/uswds/uswds">USWDS GitHub page [github.com]</a> to:</p>
       <ul>
         <li>Report problems or bugs</li>
         <li>Contribute new research or guidance</li>
@@ -41,7 +41,7 @@ subnav:
 
 ## Level 1: **Integrate design principles**{:.text-light}
 
-**USWDS Design Principles support and reflect the important guidance codified in the [21st Century Integrated Digital Experience Act](https://digital.gov/resources/21st-century-integrated-digital-experience-act/).** These design principles are intended to help teams across government align on important common goals and better use the design system — to be an evaluative lens for design and implementation decisions.
+**USWDS Design Principles support and reflect the important guidance codified in the [21st Century Integrated Digital Experience Act [digital.gov]](https://digital.gov/resources/21st-century-integrated-digital-experience-act/).** These design principles are intended to help teams across government align on important common goals and better use the design system — to be an evaluative lens for design and implementation decisions.
 
 ### Start with real user needs
 
@@ -102,8 +102,8 @@ subnav:
 
 ### How to check
 
-- [Google Lighthouse UX audit](https://developers.google.com/web/tools/lighthouse)
-- Check [maximum line lengths](https://designsystem.digital.gov/components/typography/#measure-line-length) are no longer than 90 characters
+- [Google Lighthouse UX audit [google.com]](https://developers.google.com/web/tools/lighthouse)
+- Check [maximum line lengths]({{ site.baseurl }}/components/typography/#measure-line-length) are no longer than 90 characters
 - Check that sites adhere to agency-specific design and style guidelines
 
 {:.border-top-05.border-primary.padding-top-2.margin-bottom-3}
@@ -119,7 +119,7 @@ Government websites include components that aren’t included in USWDS yet. Use 
 #### 1: Add USWDS code and adjust settings.
 
 - Add USWDS to your project [with NPM]({{ site.baseurl }}/documentation/developers/#install-using-npm) or by [downloading the source from Github]({{ site.baseurl }}/documentation/developers/#download).
-- Compile the Sass source code using the [guidelines in the documentation]({{ site.baseurl }}/documentation/developers/#sass-compilation-requirements) or by using [uswds-gulp](https://github.com/uswds/uswds-gulp).
+- Compile the Sass source code using the [guidelines in the documentation]({{ site.baseurl }}/documentation/developers/#sass-compilation-requirements) or by using [uswds-gulp [github.com]](https://github.com/uswds/uswds-gulp).
 - Compile the Javascript source code using the [guidelines in the documentation]({{ site.baseurl }}/documentation/developers/#js-customization) or [download a precompiled version]({{ site.baseurl }}/documentation/developers/#download).
 - Add USWDS Javascript to your page templates.
 - Add USWDS CSS to your page templates.
@@ -172,9 +172,9 @@ understanding and adopting the design principles and individual components.
 
 
 This is a work in progress, and we want your input.
-- Share your feedback and collaborate with the [USWDS community](https://digital.gov/communities/uswds/)
-on the [#uswds-public](https://app.slack.com/client/T025AQGAN/C3F14AHSQ){:target="_blank" rel="noopener"} Slack channel.
+- Share your feedback and collaborate with the [USWDS community]({{ site.baseurl }}/about/community/)
+on the [#uswds-public [slack.com]](https://app.slack.com/client/T025AQGAN/C3F14AHSQ){:target="_blank" rel="noopener"} Slack channel.
 - If you can't access slack, email us your feedback directly at [uswds@support.digitalgov.gov](mailto:uswds@support.digitalgov.gov)
 
-If you’re new to the maturity model, listen to [USWDS January Monthly Call](https://digital.gov/event/2020/01/16/uswds-january-monthly-call/)
+If you’re new to the maturity model, listen to [USWDS January Monthly Call [digital.gov]](https://digital.gov/event/2020/01/16/uswds-january-monthly-call/)
 on the using the USWDS maturity model.

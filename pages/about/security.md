@@ -15,7 +15,7 @@ lead: Developing and using USWDS with security in mind
   | last }}
 
 ## Verifying ZIP release hash
-The `/security` directory in the [USWDS repo](https://github.com/uswds/uswds/tree/develop/security) contains SHA-256 hashes for each USWDS hashed release ZIP file. Use these hashes to verify the authenticity of USWDS release ZIP files. Compare our SHA-256 hash with the hash you generate from the ZIP you wish to test.
+The `/security` directory in the [USWDS repo [github.com]](https://github.com/uswds/uswds/tree/develop/security) contains SHA-256 hashes for each USWDS hashed release ZIP file. Use these hashes to verify the authenticity of USWDS release ZIP files. Compare our SHA-256 hash with the hash you generate from the ZIP you wish to test.
 
 You can also find the SHA-256 hash for the current release on the [Download page]({{ site.baseurl }}/download/).
 

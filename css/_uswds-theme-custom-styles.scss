@@ -582,10 +582,6 @@ body {
   margin-left: units(1.5);
   position: absolute;
   text-decoration: none;
-
-  &#{$external-href}::after {
-    display: none;
-  }
 }
 
 .label-alpha,
@@ -1427,27 +1423,6 @@ code[class*="language-plaintext"] {
   margin-bottom: units(7);
 }
 
-// External link styles
-#{$external-href} {
-  @include external-link(external-link, external-link-hover);
-}
-
-.usa-button,
-.link-download,
-.media_link {
-  &#{$external-href}::after {
-    display: none;
-  }
-}
-
-.logo-links,
-.usa-disclaimer-stage {
-  #{$external-href} {
-    &::after {
-      display: none;
-    }
-  }
-}
 
 // ========================================
 // 3. Custom page styles

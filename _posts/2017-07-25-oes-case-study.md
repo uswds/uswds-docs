@@ -16,13 +16,13 @@ The [U.S. Web Design Standards](https://designsystem.digital.gov/) are currently
 
 **Maureen Earley:** We understood why the Standards were created and why good design across government is important. We also didn’t want to recreate the wheel in designing our website. For example, we realized during the design process that our OES logo didn’t meet color contrast requirements for accessibility. But, because we were referencing the Standards we were able to avoid this issue. We wanted to defer to the Standards and the expertise that already exists.
 
-We also have been working with the team running [Federalist](https://federalist.fr.cloud.gov), the open source static website publishing service, building out templates that other teams across government can use. For example, our [Team page](https://oes.gsa.gov/team/) is now a Federalist template that anyone can use.
+We also have been working with the team running [Federalist [cloud.gov]](https://federalist.fr.cloud.gov), the open source static website publishing service, building out templates that other teams across government can use. For example, our [Team page [gsa.gov]](https://oes.gsa.gov/team/) is now a Federalist template that anyone can use.
 
 When we talk with other offices within government who want to redesign their sites, they get very excited about the Standards, and the Federalist platform, because someone has already done the work for them. It makes their job and life a lot easier.
 
 **USWDS:** How did you integrate your work with the Standards?
 
-**Maureen Earley:** We worked with one of 18F’s developers who was doing the various coding elements for us. She redid the back-end of our site to be compliant with the [USWDS Jekyll theme](https://github.com/18f/uswds-jekyll).
+**Maureen Earley:** We worked with one of 18F’s developers who was doing the various coding elements for us. She redid the back-end of our site to be compliant with the [USWDS Jekyll theme [github.com]](https://github.com/18f/uswds-jekyll).
 
 **USWDS:** What were the benefits you gained by using the Standards?
 
@@ -38,4 +38,4 @@ When we talk with other offices within government who want to redesign their sit
 
 ---
 
-We’re looking to learn more [from agencies that have used the Standards](/getting-started/showcase/); if you’re interested in talking to us about your experience or have any feedback, feel free to send us an email at [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov). You can also chat with the team in the new [public Slack channel for the Standards](https://chat.18f.gov/)!
+We’re looking to learn more [from agencies that have used the Standards](/getting-started/showcase/); if you’re interested in talking to us about your experience or have any feedback, feel free to send us an email at [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov). You can also chat with the team in the new [public Slack channel for the Standards [18f.gov]](https://chat.18f.gov/)!

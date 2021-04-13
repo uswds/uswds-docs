@@ -53,7 +53,7 @@ This process helped shine light on the pros and cons of each tool, which allowed
 
 #### User interviews
 
-The user interviews took place over the course of three weeks in March 2017. We began by interviewing a member of the 18F team who has expertise in HTTPS and HTTP/2 and shared with us the complementary ways in which it can help to improve web performance. Next, we interviewed a second member of the 18F team who manages [Pulse](https://pulse.cio.gov/), which publishes how federal agencies are meeting best practices on the web with respect to HTTPS and the [Digital Analytics Program](https://www.digitalgov.gov/services/dap/).
+The user interviews took place over the course of three weeks in March 2017. We began by interviewing a member of the 18F team who has expertise in HTTPS and HTTP/2 and shared with us the complementary ways in which it can help to improve web performance. Next, we interviewed a second member of the 18F team who manages [Pulse [cio.gov]](https://pulse.cio.gov/), which publishes how federal agencies are meeting best practices on the web with respect to HTTPS and the [Digital Analytics Program [digitalgov.gov]](https://www.digitalgov.gov/services/dap/).
 
 The next phase of interviews was with the government teams, and we asked questions relating to web performance. Here are some of the questions we asked:
 

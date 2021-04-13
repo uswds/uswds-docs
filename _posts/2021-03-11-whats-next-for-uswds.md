@@ -51,18 +51,18 @@ Today we’re releasing a new and exciting report and strategy that outlines [wh
 </div>
 
 Thanks to the participation of content managers, designers, engineers, policy analysts, and thought leaders across dozens of federal agencies, we conducted the largest research effort in the history of the design system. We conducted 60 interviews across 33 teams to better understand how teams are dealing with **emergency response** situations (specifically COVID-19) in terms of their digital communications, as well as their needs as users of the design system.
-  
-Taking action on what [we learned from the research]({{ site.baseurl }}/whats-new/updates/2021/03/01/improving-emergency-response/), we created and updated several design system components and templates to address the common needs agencies faced.  
+
+Taking action on what [we learned from the research]({{ site.baseurl }}/whats-new/updates/2021/03/01/improving-emergency-response/), we created and updated several design system components and templates to address the common needs agencies faced.
 
 Their insights and observations also brought into focus a set of near-term opportunities — and longer-term vision — for the design system.
 
 > “The more we use the design system to standardize how we build digital experiences, the more we will improve how the federal web functions.”
-> 
+>
 > — From a digital modernization thought-leader during interviews
 
 
 Though agencies start with different goals and capabilities, we discovered they follow a common journey with similar needs when it comes to adopting and using the design system.
-  
+
 
 
 <ul class="usa-icon-list usa-icon-list--size-lg margin-top-5 margin-bottom-4">
@@ -133,7 +133,7 @@ Though agencies start with different goals and capabilities, we discovered they 
       <p>Adopting a design system is an ongoing process of design, development, and making iterative improvements and upgrades over time, which requires continued resources and support.</p>
     </div>
   </li>
-  
+
 </ul>
 
 A vibrant design system that more effectively meets these five needs is instrumental to agencies being able to deliver exceptional digital services. To get there, we’ll focus on the following near-term opportunities:
@@ -145,216 +145,3 @@ A vibrant design system that more effectively meets these five needs is instrume
 3.  Leverage related efforts within TTS and the broader government digital services community
 
 Stay tuned for more detail on these next steps in [our roadmap]({{ site.baseurl }}/about/product-roadmap/), and learn more about our findings and a vision for the future of the design system by reading the [report]({{ site.baseurl }}/next/).
-
-<style type="text/css" scoped>
-// Please remove when icon-list is merged (https://github.com/uswds/uswds-site/pull/1140)
-
-.usa-icon-list {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
-  margin-bottom: 0;
-  margin-top: 0;
-  list-style-type: none;
-  padding-left: 0;
-  max-width: 72ex;
-}
-.usa-icon-list > li {
-  margin-bottom: 0;
-  max-width: unset;
-}
-
-.usa-icon-list__item {
-  display: flex;
-  font-size: 1.06rem;
-  position: relative;
-}
-.usa-icon-list__item + .usa-icon-list__item {
-  padding-top: 0.75rem;
-}
-
-.usa-prose .usa-icon-list {
-  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
-  font-size: 1.06rem;
-  line-height: 1.5;
-  margin-bottom: 0;
-  margin-top: 0;
-  list-style-type: none;
-  padding-left: 0;
-  max-width: 72ex;
-}
-.usa-prose .usa-icon-list > li {
-  margin-bottom: 0;
-  max-width: unset;
-}
-.usa-prose .usa-icon-list__item {
-  display: flex;
-  font-size: 1.06rem;
-  position: relative;
-}
-.usa-prose .usa-icon-list__item + .usa-icon-list__item {
-  padding-top: 0.75rem;
-}
-
-.usa-icon-list__icon .usa-icon {
-  display: block;
-  height: 1.59rem;
-  margin-top: -1.5%;
-  position: relative;
-  width: 1.59rem;
-}
-
-.usa-icon-list--size-lg .usa-icon-list__icon .usa-icon {
-  height: 1.995rem;
-  margin-top: -1.5%;
-  width: 1.995rem;
-}
-.usa-icon-list--size-lg .usa-icon-list__content {
-  font-size: 1.33rem;
-  padding-left: 0.532rem;
-}
-.usa-icon-list--size-lg .usa-icon-list__content > p,
-.usa-icon-list--size-lg .usa-icon-list__content > h2,
-.usa-icon-list--size-lg .usa-icon-list__content > h3,
-.usa-icon-list--size-lg .usa-icon-list__content > h4,
-.usa-icon-list--size-lg .usa-icon-list__content > h5,
-.usa-icon-list--size-lg .usa-icon-list__content > h6,
-.usa-icon-list--size-lg .usa-icon-list__content > ul,
-.usa-icon-list--size-lg .usa-icon-list__content > ol,
-.usa-icon-list--size-lg .usa-icon-list__content > div {
-  font-size: initial;
-}
-.usa-icon-list--size-lg .usa-icon-list__content .usa-icon-list__title {
-  font-size: 1.33rem;
-}
-
-
-@media all and (min-width: 30em) {
-  .mobile-lg\:usa-icon-list--size-lg .usa-icon-list__icon .usa-icon {
-    height: 1.995rem;
-    margin-top: -1.5%;
-    width: 1.995rem;
-  }
-  .mobile-lg\:usa-icon-list--size-lg .usa-icon-list__content {
-    font-size: 1.33rem;
-    padding-left: 0.532rem;
-  }
-  .mobile-lg\:usa-icon-list--size-lg .usa-icon-list__content > p,
-.mobile-lg\:usa-icon-list--size-lg .usa-icon-list__content > h2,
-.mobile-lg\:usa-icon-list--size-lg .usa-icon-list__content > h3,
-.mobile-lg\:usa-icon-list--size-lg .usa-icon-list__content > h4,
-.mobile-lg\:usa-icon-list--size-lg .usa-icon-list__content > h5,
-.mobile-lg\:usa-icon-list--size-lg .usa-icon-list__content > h6,
-.mobile-lg\:usa-icon-list--size-lg .usa-icon-list__content > ul,
-.mobile-lg\:usa-icon-list--size-lg .usa-icon-list__content > ol,
-.mobile-lg\:usa-icon-list--size-lg .usa-icon-list__content > div {
-    font-size: initial;
-  }
-  .mobile-lg\:usa-icon-list--size-lg .usa-icon-list__content .usa-icon-list__title {
-    font-size: 1.33rem;
-  }
-}
-
-@media all and (min-width: 40em) {
-  .tablet\:usa-icon-list--size-lg .usa-icon-list__icon .usa-icon {
-    height: 1.995rem;
-    margin-top: -1.5%;
-    width: 1.995rem;
-  }
-  .tablet\:usa-icon-list--size-lg .usa-icon-list__content {
-    font-size: 1.33rem;
-    padding-left: 0.532rem;
-  }
-  .tablet\:usa-icon-list--size-lg .usa-icon-list__content > p,
-.tablet\:usa-icon-list--size-lg .usa-icon-list__content > h2,
-.tablet\:usa-icon-list--size-lg .usa-icon-list__content > h3,
-.tablet\:usa-icon-list--size-lg .usa-icon-list__content > h4,
-.tablet\:usa-icon-list--size-lg .usa-icon-list__content > h5,
-.tablet\:usa-icon-list--size-lg .usa-icon-list__content > h6,
-.tablet\:usa-icon-list--size-lg .usa-icon-list__content > ul,
-.tablet\:usa-icon-list--size-lg .usa-icon-list__content > ol,
-.tablet\:usa-icon-list--size-lg .usa-icon-list__content > div {
-    font-size: initial;
-  }
-  .tablet\:usa-icon-list--size-lg .usa-icon-list__content .usa-icon-list__title {
-    font-size: 1.33rem;
-  }
-}
-
-@media all and (min-width: 64em) {
-  .desktop\:usa-icon-list--size-lg .usa-icon-list__icon .usa-icon {
-    height: 1.995rem;
-    margin-top: -1.5%;
-    width: 1.995rem;
-  }
-  .desktop\:usa-icon-list--size-lg .usa-icon-list__content {
-    font-size: 1.33rem;
-    padding-left: 0.532rem;
-  }
-  .desktop\:usa-icon-list--size-lg .usa-icon-list__content > p,
-.desktop\:usa-icon-list--size-lg .usa-icon-list__content > h2,
-.desktop\:usa-icon-list--size-lg .usa-icon-list__content > h3,
-.desktop\:usa-icon-list--size-lg .usa-icon-list__content > h4,
-.desktop\:usa-icon-list--size-lg .usa-icon-list__content > h5,
-.desktop\:usa-icon-list--size-lg .usa-icon-list__content > h6,
-.desktop\:usa-icon-list--size-lg .usa-icon-list__content > ul,
-.desktop\:usa-icon-list--size-lg .usa-icon-list__content > ol,
-.desktop\:usa-icon-list--size-lg .usa-icon-list__content > div {
-    font-size: initial;
-  }
-  .desktop\:usa-icon-list--size-lg .usa-icon-list__content .usa-icon-list__title {
-    font-size: 1.33rem;
-  }
-}
-
-@media all and (min-width: 75em) {
-  .desktop-lg\:usa-icon-list--size-lg .usa-icon-list__icon .usa-icon {
-    height: 1.995rem;
-    margin-top: -1.5%;
-    width: 1.995rem;
-  }
-  .desktop-lg\:usa-icon-list--size-lg .usa-icon-list__content {
-    font-size: 1.33rem;
-    padding-left: 0.532rem;
-  }
-  .desktop-lg\:usa-icon-list--size-lg .usa-icon-list__content > p,
-.desktop-lg\:usa-icon-list--size-lg .usa-icon-list__content > h2,
-.desktop-lg\:usa-icon-list--size-lg .usa-icon-list__content > h3,
-.desktop-lg\:usa-icon-list--size-lg .usa-icon-list__content > h4,
-.desktop-lg\:usa-icon-list--size-lg .usa-icon-list__content > h5,
-.desktop-lg\:usa-icon-list--size-lg .usa-icon-list__content > h6,
-.desktop-lg\:usa-icon-list--size-lg .usa-icon-list__content > ul,
-.desktop-lg\:usa-icon-list--size-lg .usa-icon-list__content > ol,
-.desktop-lg\:usa-icon-list--size-lg .usa-icon-list__content > div {
-    font-size: initial;
-  }
-  .desktop-lg\:usa-icon-list--size-lg .usa-icon-list__content .usa-icon-list__title {
-    font-size: 1.33rem;
-  }
-}
-
-.usa-icon-list__title {
-  font-size: 1.06rem;
-  line-height: 1.1;
-  margin-bottom: 0;
-  padding-top: 0.2em;
-}
-.usa-icon-list__title + * {
-  margin-top: 0.5rem;
-}
-
-.usa-icon-list__content {
-  font-size: 1.06rem;
-  padding-left: 0.424rem;
-}
-.usa-icon-list__content > *:first-child {
-  margin-top: 0;
-}
-.usa-icon-list__content > *:last-child {
-  margin-bottom: 0;
-}
-.usa-icon-list__content ul li {
-  list-style-type: disc;
-}
-
-</style>
