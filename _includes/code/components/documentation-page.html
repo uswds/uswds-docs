@@ -1,6 +1,8 @@
 {% capture layout--docs %}
+  <!--? Rebuild the layout without footer to avoid a11y conflicts -->
+  <!-- Ex: https://designsystem.digital.gov/templates/docs/ -->
   <a class="usa-skipnav" href="#main-content">Skip to main content</a>
-  {% fractal_component banner %}
-  {% fractal_component header--basic %}
-  {% fractal_component layout--docs-inner %}
+  {% library_component components-usa-banner-usa-banner %}
+  {% library_component templates-base-_header %}
+  {% library_component templates-documentation-_usa-docs-inner %}
 {% endcapture %}{{ layout--docs | strip }}

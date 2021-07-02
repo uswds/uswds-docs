@@ -1,14 +1,14 @@
 <h3 class="site-preview-heading">Default breadcrumb</h3>
 {% capture breadcrumb %}
-  {% fractal_component breadcrumb %}
+  {% library_component components-usa-breadcrumb-usa-breadcrumb %}
 {% endcapture %}{{ breadcrumb | strip }}
 
-<h3 class="site-preview-heading">Breadcrumb with RDFa metadata</h3>
-{% capture breadcrumb--metadata %}
-  {% fractal_component breadcrumb--metadata %}
-{% endcapture %}{{ breadcrumb--metadata | strip }}
+<h3 class="site-preview-heading">Breadcrumb with RDFa metadata</h6>
+{% capture breadcrumb-metadata %}
+  {% library_component components-usa-breadcrumb-_usa-breadcrumb--metadata %}
+{% endcapture %}{{ breadcrumb-metadata | strip }}
 
-<h3 class="site-preview-heading">Wrapping breadcrumb</h3>
-{% capture breadcrumb--wrap %}
-  {% fractal_component breadcrumb--wrap %}
-{% endcapture %}{{ breadcrumb--wrap | strip }}
+<h3 class="site-preview-heading">Wrapping breadcrumb</h6>
+{% capture breadcrumb-wrap %}
+  {% library_component components-usa-breadcrumb-usa-breadcrumb-wrap %}
+{% endcapture %}{{ breadcrumb-wrap | strip }}

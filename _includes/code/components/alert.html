@@ -1,29 +1,29 @@
 <h3 class="site-preview-heading">Standard alerts</h3>
 
-{% capture alerts--info %}
-  {% fractal_component alerts--info %}
-{% endcapture %}{{ alerts--info | strip }}
+{% capture alert-info %}
+  {% library_component components-usa-alert-usa-alert %}
+{% endcapture %}{{ alert-info | strip }}
 
-{% capture alerts--warning %}
-  {% fractal_component alerts--warning %}
-{% endcapture %}{{ alerts--warning | strip }}
+{% capture alert-warning %}
+  {% library_component components-usa-alert-usa-alert-warning %}
+{% endcapture %}{{ alert-warning | strip }}
 
-{% capture alerts--error %}
-  {% fractal_component alerts--error %}
-{% endcapture %}{{ alerts--error | strip }}
+{% capture alert-error %}
+  {% library_component components-usa-alert-usa-alert-error %}
+{% endcapture %}{{ alert-error | strip }}
 
-{% capture alerts--success %}
-  {% fractal_component alerts--success %}
-{% endcapture %}{{ alerts--success | strip }}
+{% capture alert-success %}
+  {% library_component components-usa-alert-usa-alert-success %}
+{% endcapture %}{{ alert-success | strip }}
 
 <h3 class="site-preview-heading">Slim alert</h3>
 
-{% capture alerts--slim %}
-  {% fractal_component alerts--slim %}
-{% endcapture %}{{ alerts--slim | strip }}
+{% capture alert-slim %}
+  {% library_component components-usa-alert-usa-alert-slim %}
+{% endcapture %}{{ alert-slim | strip }}
 
 <h3 class="site-preview-heading">Alert with no icon</h3>
 
-{% capture alerts--no-icon %}
-  {% fractal_component alerts--no-icon %}
-{% endcapture %}{{ alerts--no-icon | strip }}
+{% capture alert-no-icon %}
+  {% library_component components-usa-alert-usa-alert-no-icon %}
+{% endcapture %}{{ alert-no-icon | strip }}

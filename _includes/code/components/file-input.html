@@ -1,3 +1,23 @@
 {% capture file-input %}
-  {% fractal_component file-input %}
+  {% library_component components-usa-file-input-usa-file-input %}
 {% endcapture %}{{ file-input | strip }}
+
+{% capture file-input-specific %}
+  {% library_component components-usa-file-input-usa-file-input-specific %}
+{% endcapture %}{{ file-input-specific | strip }}
+
+{% capture file-input-wildcard %}
+  {% library_component components-usa-file-input-usa-file-input-wildcard %}
+{% endcapture %}{{ file-input-wildcard | strip }}
+
+{% capture file-input-multiple %}
+  {% library_component components-usa-file-input-usa-file-input-multiple %}
+{% endcapture %}{{ file-input-multiple | strip }}
+
+{% capture file-input-error %}
+  {% library_component components-usa-file-input-usa-file-input-error %}
+{% endcapture %}{{ file-input-error | strip }}
+
+{% capture file-input-disabled %}
+  {% library_component components-usa-file-input-usa-file-input-disabled %}
+{% endcapture %}{{ file-input-disabled | strip }}

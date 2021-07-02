@@ -1,3 +1,11 @@
 {% capture table--scrollable %}
-  {% fractal_component table--scrollable %}
+  {% library_component components-usa-table-usa-table--scrollable %}
 {% endcapture %}{{ table--scrollable | strip }}
+
+{% capture table--scrollable-striped %}
+  {% library_component components-usa-table-usa-table--scrollable-striped %}
+{% endcapture %}{{ table--scrollable-striped | strip }}
+
+{% capture table--scrollable-compact-striped %}
+  {% library_component components-usa-table-usa-table--scrollable-compact-striped %}
+{% endcapture %}{{ table--scrollable-compact-striped | strip }}

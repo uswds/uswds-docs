@@ -1,6 +1,6 @@
 <h3 class="site-preview-heading">.gov domains</h3>
 {% capture banner %}
-  {% fractal_component banner %}
+  {% library_component components-usa-banner-usa-banner %}
 {% endcapture %}{{ banner
   | strip
   | replace: 'gov-banner', 'gov-banner-default'
@@ -9,27 +9,27 @@
 
 <h3 class="site-preview-heading">.mil domains</h3>
 {% capture banner--dot-mil %}
-  {% fractal_component banner--dot-mil %}
+  {% library_component components-usa-banner-usa-banner-mil %}
 {% endcapture %}{{ banner--dot-mil
   | strip
-  | replace: 'gov-banner', 'gov-banner-dot-mil'
+  | replace: 'gov-banner', 'gov-banner-mil'
   | replace: 'banner-lock-title', 'banner-lock-title-dot-mil'
   | replace: 'banner-lock-description', 'banner-lock-description-dot-mil' }}
 
-<h3 class="site-preview-heading">.gov domains (Spanish)</h3>
-{% capture banner--lang-es %}
-  {% fractal_component banner--lang-es %}
-{% endcapture %}{{ banner--lang-es
+<h3 class="site-preview-heading">.gov domains (Spanish)</h6>
+{% capture banner-lang-es %}
+  {% library_component components-usa-banner-usa-banner-lang-es %}
+{% endcapture %}{{ banner-spanish
   | strip
-  | replace: 'gov-banner', 'gov-banner-lang-es'
-  | replace: 'banner-lock-title', 'banner-lock-title-lang-es'
-  | replace: 'banner-lock-description', 'banner-lock-description-lang-es' }}
+  | replace: 'gov-banner', 'gov-banner-spanish'
+  | replace: 'banner-lock-title', 'banner-lock-title-spanish'
+  | replace: 'banner-lock-description', 'banner-lock-description-spanish' }}
 
-<h3 class="site-preview-heading">.mil domains (Spanish)</h3>
-{% capture banner--dot-mil-lang-es %}
-  {% fractal_component banner--dot-mil-lang-es %}
-{% endcapture %}{{ banner--dot-mil-lang-es
+<h3 class="site-preview-heading">.mil domains (Spanish)</h6>
+{% capture banner-mil-lang-es %}
+  {% library_component components-usa-banner-usa-banner-mil-lang-es %}
+{% endcapture %}{{ banner-mil-spanish
   | strip
-  | replace: 'gov-banner', 'gov-banner-dot-mil-lang-es'
-  | replace: 'banner-lock-title', 'banner-lock-title-dot-mil-lang-es'
-  | replace: 'banner-lock-description', 'banner-lock-description-dot-mil-lang-es' }}
+  | replace: 'gov-banner', 'gov-banner-mil-spanish'
+  | replace: 'banner-lock-title', 'banner-lock-title-dot-mil-spanish'
+  | replace: 'banner-lock-description', 'banner-lock-description-dot-mil-spanish' }}

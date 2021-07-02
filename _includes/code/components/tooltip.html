@@ -1,9 +1,9 @@
 <h3 class="site-preview-heading">Standard tooltip</h3>
 {% capture tooltip %}
-  {% fractal_component tooltip %}
+  {% library_component components-usa-tooltip-usa-tooltip %}
 {% endcapture %}{{ tooltip | strip }}
 
 <h3 class="site-preview-heading">Tooltip with utility classes</h3>
 {% capture tooltip-utilities %}
-  {% fractal_component tooltip--utilities %}
+  {% library_component components-usa-tooltip-usa-tooltip--utilities %}
 {% endcapture %}{{ tooltip-utilities | strip }}

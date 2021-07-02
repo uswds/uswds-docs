@@ -1,20 +1,20 @@
 <h3 class="site-preview-heading">Default</h3>
 {% capture pagination %}
-  {% fractal_component pagination %}
+  {% library_component components-usa-pagination-usa-pagination %}
 {% endcapture %}{{ pagination | strip }}
 
 <h3 class="site-preview-heading">unbounded</h3>
 {% capture pagination--unbounded %}
-  {% fractal_component pagination--unbounded %}
+  {% library_component components-usa-pagination-usa-pagination-unbounded %}
 {% endcapture %}{{ pagination--unbounded | strip }}
 
 <h3 class="site-preview-heading">Default (Spanish)</h3>
 {% capture pagination--lang-es %}
-{% fractal_component pagination--lang-es %}
+{% library_component components-usa-pagination-usa-pagination-lang-es %}
 {% endcapture %}{{ pagination--lang-es }}
 
 <h3 class="site-preview-heading">unbounded (Spanish)</h3>
 {% capture pagination--unbounded-lang-es %}
-  {% fractal_component pagination--unbounded-lang-es %}
+  {% library_component components-usa-pagination-usa-pagination-unbounded-lang-es %}
 {% endcapture %}{{ pagination--unbounded-lang-es | strip }}
 

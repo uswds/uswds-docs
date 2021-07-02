@@ -17,10 +17,10 @@
 
 // Tools
 // -------------------------------------
-@import 'packages/required';
+@import 'packages/uswds-required';
 
 $pink-20v: #F8A897;
-$pink-50v: #bc5843; 
+$pink-50v: #bc5843;
 
 $gray-20-next: #eaece9;
 $gray-80-next: #2e2e2e;
@@ -58,7 +58,7 @@ $next-theme-colors: (
   .bg-#{$color-name} {
     background-color: $color-value !important;
     @if $text-black == true {
-      color: $gray-90-next !important;      
+      color: $gray-90-next !important;
     }
   }
   .text-#{$color-name} {
@@ -70,18 +70,18 @@ html {
   scroll-padding-top: units(15) + units(3);
 }
 
-// Typesetting 
+// Typesetting
 .usa-prose {
   font-family: family('lang');
 }
 
 .usa-button--next {
   background-color: $next-button-color;
- 
+
   &:hover,
   &:focus {
    background-color: $next-button-hover-color;
-  } 
+  }
 }
 .usa-dark-background .usa-button--next {
   color: white; // .usa-dark-background a makes links light grey, fails WCAG AAA
@@ -97,7 +97,7 @@ html {
     background-color: transparent;
     box-shadow: inset 0 0 0 2px $next-button-hover-color;
     color: $next-button-hover-color;
-  } 
+  }
 }
 
 
@@ -135,7 +135,7 @@ html {
   line-height: line-height('lang', 2);
   margin: 0;
   max-width: 30ex;
-  
+
   @include at-media("tablet") {
     font-size: size('lang', 13);
   }
@@ -224,18 +224,18 @@ html {
   }
 
   .next-hero__heading {
-    font-family: family("heading"); 
+    font-family: family("heading");
     font-size: size("heading", 12);
     font-weight: font-weight("bold");
-    
+
     @include at-media("tablet") {
       font-size: size('heading', 13);
     }
-  
+
     @include at-media("desktop") {
       font-size: size('heading', 15);
     }
-  
+
   }
 }
 
@@ -250,7 +250,7 @@ html {
     position: sticky;
     left: 0;
     top: 0;
-    z-index: z('top'); 
+    z-index: z('top');
   }
 }
 
@@ -347,7 +347,7 @@ html {
 }
 
 .next-quote__quote {
-  font-family: family("heading"); 
+  font-family: family("heading");
   font-size: size("heading", 9);
   font-weight: font-weight("bold");
   line-height: line-height("heading", 3);
@@ -406,10 +406,10 @@ html {
     line-height: line-height("heading", 2);
     margin-top: units(2.5);
     margin-bottom: units(1.5);
-  
+
     @include at-media("desktop") {
       font-size: size("heading", 14);
-    }  
+    }
   }
 
   h3 {
@@ -491,7 +491,7 @@ html {
 }
 
 .next-section-description {
-  
+
   p {
     font-size: size('lang', 8);
   }
@@ -578,7 +578,7 @@ html {
 
   @include at-media("desktop") {
     font-size: size("heading", 10);
-  }  
+  }
 
   .usa-icon {
     content: "";
@@ -619,7 +619,7 @@ html {
 
   @include at-media("desktop") {
     font-size: size("heading", 14);
-  }  
+  }
   .usa-icon {
     width: units(4);
     height: units(4);
@@ -688,7 +688,7 @@ html {
   width: 60px;
 }
 
-.next-finding__heading { 
+.next-finding__heading {
   font-family: family('lang') !important;
   font-size: size('lang', 8) !important;
   line-height: line-height("lang", 2);

@@ -1,14 +1,14 @@
 <h3 class="site-preview-heading">Default</h3>
 {% capture process-list %}
-  {% fractal_component process-list %}
+  {% library_component components-usa-process-list-usa-process-list %}
 {% endcapture %}{{ process-list | strip }}
 
 <h3 class="site-preview-heading">No text and custom sizing</h3>
 {% capture process-list--no-text %}
-  {% fractal_component process-list--no-text %}
+  {% library_component components-usa-process-list-usa-process-list--no-text %}
 {% endcapture %}{{ process-list--no-text | strip }}
 
 <h3 class="site-preview-heading">Custom sizing</h3>
 {% capture process-list--custom-sizing %}
-  {% fractal_component process-list--custom-sizing %}
+  {% library_component components-usa-process-list-usa-process-list--custom-sizing %}
 {% endcapture %}{{ process-list--custom-sizing | strip }}

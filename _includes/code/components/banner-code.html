@@ -1,23 +1,23 @@
 <h3 class="site-preview-heading">.gov domains</h3>
 {% capture banner %}
-  {% fractal_component banner %}
+  {% library_component components-usa-banner-usa-banner %}
 {% endcapture %}{{ banner
   | strip }}
 
 <h3 class="site-preview-heading">.mil domains</h3>
 {% capture banner--dot-mil %}
-  {% fractal_component banner--dot-mil %}
+  {% library_component components-usa-banner-usa-banner-mil %}
 {% endcapture %}{{ banner--dot-mil
   | strip }}
 
 <h3 class="site-preview-heading">.gov domains (Spanish)</h3>
 {% capture banner--lang-es %}
-  {% fractal_component banner--lang-es %}
+  {% library_component components-usa-banner-usa-banner-lang-es %}
 {% endcapture %}{{ banner--dot-mil
   | strip }}
 
 <h3 class="site-preview-heading">.mil domains (Spanish)</h3>
 {% capture banner--dot-mil-lang-es %}
-  {% fractal_component banner--dot-mil-lang-es %}
-{% endcapture %}{{ banner--dot-mil
+  {% library_component components-usa-banner-usa-banner-mil-lang-es %}
+{% endcapture %}{{ banner--dot-mil-lang-es
   | strip }}

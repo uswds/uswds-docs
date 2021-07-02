@@ -1,17 +1,17 @@
 <h3 class="site-preview-heading">Borderless</h3>
 
 {% capture borderless %}
-  {% fractal_component accordion--default %}
+  {% library_component components-usa-accordion-usa-accordion %}
 {% endcapture %}{{ borderless | strip }}
 
 <h3 class="site-preview-heading">Bordered</h3>
 
 {% capture bordered %}
-  {% fractal_component accordion--bordered %}
+  {% library_component components-usa-accordion-usa-accordion-bordered %}
 {% endcapture %}{{ bordered | strip }}
 
 <h3 class="site-preview-heading">Multiselectable</h3>
 
 {% capture multiselectable %}
-  {% fractal_component accordion--multiselectable %}
-{% endcapture %}{{ multiselectable | strip }}
+  {% library_component components-usa-accordion-usa-accordion-multiselectable %}
+{% endcapture %}{{ multiselectable | strip  }}

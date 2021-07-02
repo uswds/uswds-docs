@@ -1061,21 +1061,12 @@ ignore:
     - gulp-eslint > eslint > glob-parent:
         reason: None given
         expires: '2021-03-20T08:01:00.235Z'
-      gulp > glob-watcher > chokidar > glob-parent:
-        reason: No upgrade or patch available.
-        expires: '2021-07-30T14:47:43.752Z'
     - del > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-02-14T18:33:52.502Z'
-      gulp > vinyl-fs > glob-stream > glob-parent:
-        reason: No upgrade or patch available.
-        expires: '2021-07-30T14:47:43.752Z'
     - uswds > del > globby > fast-glob > glob-parent:
         reason: None given
         expires: '2021-02-14T18:33:52.502Z'
-      gulp-scss-lint > vinyl-fs > glob-stream > glob-parent:
-        reason: No upgrade or patch available.
-        expires: '2021-07-30T14:47:43.752Z'
     - sass > chokidar > glob-parent:
         reason: None given
         expires: '2021-02-14T18:33:52.502Z'
@@ -1205,6 +1196,15 @@ ignore:
     - uswds > nswatch > chokidar > glob-parent:
         reason: No direct upgrade or patch.
         expires: '2021-07-07T18:59:49.940Z'
+    - gulp > glob-watcher > chokidar > glob-parent:
+        reason: No upgrade or patch available.
+        expires: '2021-07-30T14:47:43.752Z'
+    - gulp > vinyl-fs > glob-stream > glob-parent:
+        reason: No upgrade or patch available.
+        expires: '2021-07-30T14:47:43.752Z'
+    - gulp-scss-lint > vinyl-fs > glob-stream > glob-parent:
+        reason: No upgrade or patch available.
+        expires: '2021-07-30T14:47:43.752Z'
   SNYK-JS-NODESASS-1059081:
     - gulp-sass > node-sass:
         reason: No available upgrade or patch.
@@ -1940,29 +1940,32 @@ ignore:
         expires: '2021-05-28T18:17:23.015Z'
   SNYK-JS-PATHPARSE-1077067:
     - browserify > resolve > path-parse:
-        reason: No direct upgrade or patch available.
-        expires: '2021-06-06T07:01:11.150Z'
+        reason: No upgrade or patch available.
+        expires: '2021-07-31T17:36:23.696Z'
     - browserify > browser-resolve > resolve > path-parse:
-        reason: No direct upgrade or patch available.
-        expires: '2021-06-06T07:01:11.151Z'
+        reason: No upgrade or patch available.
+        expires: '2021-07-31T17:36:23.696Z'
     - browserify > module-deps > resolve > path-parse:
-        reason: No direct upgrade or patch available.
-        expires: '2021-06-06T07:01:11.151Z'
+        reason: No upgrade or patch available.
+        expires: '2021-07-31T17:36:23.696Z'
     - browserify > module-deps > browser-resolve > resolve > path-parse:
-        reason: No direct upgrade or patch available.
-        expires: '2021-06-06T07:01:11.151Z'
+        reason: No upgrade or patch available.
+        expires: '2021-07-31T17:36:23.696Z'
     - gulp > gulp-cli > liftoff > resolve > path-parse:
-        reason: No direct upgrade or patch available.
-        expires: '2021-06-06T07:01:11.151Z'
+        reason: No upgrade or patch available.
+        expires: '2021-07-31T17:36:23.696Z'
     - gulp > gulp-cli > matchdep > resolve > path-parse:
-        reason: No direct upgrade or patch available.
-        expires: '2021-06-06T07:01:11.151Z'
+        reason: No upgrade or patch available.
+        expires: '2021-07-31T17:36:23.696Z'
     - gulp > gulp-cli > liftoff > rechoir > resolve > path-parse:
-        reason: No direct upgrade or patch available.
-        expires: '2021-06-06T07:01:11.151Z'
+        reason: No upgrade or patch available.
+        expires: '2021-07-31T17:36:23.696Z'
     - gulp-sass > node-sass > meow > normalize-package-data > resolve > path-parse:
         reason: No direct upgrade or patch available.
         expires: '2021-06-06T07:01:11.151Z'
+      gulp > gulp-cli > yargs > read-pkg-up > read-pkg > normalize-package-data > resolve > path-parse:
+        reason: No upgrade or patch available.
+        expires: '2021-07-31T17:36:23.696Z'
     - gulp > gulp-cli > yargs > read-pkg-up > read-pkg > normalize-package-data > resolve > path-parse:
         reason: No direct upgrade or patch available.
         expires: '2021-06-06T07:01:11.151Z'
@@ -1984,6 +1987,10 @@ ignore:
     - gulp-svg-sprite > svg-sprite > phantomjs-prebuilt > request:
         reason: No upgrade or patch available.
         expires: '2021-07-30T14:47:43.752Z'
+  SNYK-JS-COPYPROPS-1082870:
+    - gulp > gulp-cli > copy-props:
+        reason: No upgrade or patch available.
+        expires: '2021-07-31T17:36:23.696Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:minimatch:20160620':

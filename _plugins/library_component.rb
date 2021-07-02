@@ -1,32 +1,32 @@
 require 'open-uri'
 
 module Jekyll
-  class FractalComponentTag < Liquid::Tag
-    BASE_URL_ENV_VAR = 'FRACTAL_BASE_URL'
+  class LibraryComponentTag < Liquid::Tag
+    BASE_URL_ENV_VAR = 'LIBRARY_BASE_URL'
 
     def initialize(tag_name, name, tokens)
       super
       @name = name.strip
       @base_url = ENV[BASE_URL_ENV_VAR]
-      @fs_path = "node_modules/uswds/build/components/render/#{@name}.html"
+      @fs_path = "node_modules/uswds/build/patterns/#{@name}/#{@name}.markup-only.html"
     end
 
     def get_from_server()
-      url = "#{@base_url}/components/render/#{@name}"
+      url = "#{@base_url}/patterns/#{@name}/#{@name}.markup-only.html"
       begin
         open(url).read
       rescue => e
-        print "fractal_component: error fetching #{url}: #{e}\n"
+        print "library_component: error fetching #{url}: #{e}\n"
         throw e
       end
     end
 
     def render(context)
       site = context.registers[:site]
-      if not site.data.key? 'fractal_components'
-        site.data['fractal_components'] = {}
+      if not site.data.key? 'library_components'
+        site.data['library_components'] = {}
       end
-      cache = site.data['fractal_components']
+      cache = site.data['library_components']
       if not cache.key? @name
         if @base_url
           puts " + local uswds component: #{@name}"
@@ -36,12 +36,13 @@ module Jekyll
           html = open(@fs_path).read
         else
           raise (
-            "Unable to find the fractal component #{@name}! " +
+            "Unable to find the library component #{@name}! " +
             "Please either define #{BASE_URL_ENV_VAR} or run " +
-            "'fractal build' in the uswds directory."
+            "'pl:build' in the uswds directory."
           )
         end
-        html.gsub! "../../dist/", "#{site.baseurl}/assets/"
+        # Replace asset path from library to what site needs.
+        html.gsub! "../../img/", "#{site.baseurl}/assets/img/"
         cache[@name] = html
       end
       cache[@name]
@@ -49,4 +50,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('fractal_component', Jekyll::FractalComponentTag)
+Liquid::Template.register_tag('library_component', Jekyll::LibraryComponentTag)

@@ -61,13 +61,13 @@ function spawnP(cmd, args, opts) {
 // We might be using USWDS from a git repository instead of npm, in
 // which case it might not have the pre-built assets we need. If that's
 // the case, we'll want to build those assets.
-gulp.task('build-uswds-if-needed', function () {
+gulp.task('build-uswds-if-needed', () => {
   const rootDir = path.normalize(path.join(__dirname, '..', '..'));
   const uswdsDir = path.join(rootDir, 'node_modules', 'uswds');
-  const fractalIndex = path.join(uswdsDir, 'build', 'index.html');
+  const componentLibraryIndex = path.join(uswdsDir, 'build', 'index.html');
   const gulpfile = path.join(uswdsDir, 'gulpfile.js');
 
-  if (fs.existsSync(fractalIndex)) {
+  if (fs.existsSync(componentLibraryIndex)) {
     dutil.logMessage('build-uswds-if-needed', 'USWDS is already built.');
     return Promise.resolve();
   } else {
@@ -83,8 +83,12 @@ gulp.task('build-uswds-if-needed', function () {
 
     const sharedOpts = { stdio: 'inherit', cwd: uswdsDir };
 
+    /**
+    * Previously called federalist task, but that had too many redundancies.
+    * We need to: install USWDS deps, build components, and then prettify the markup.
+    */
     return spawnP('npm', [ 'install' ], sharedOpts)
-      .then(() => spawnP('npx', [ 'fractal', 'build' ], sharedOpts))
+      .then(() => spawnP('npm', [ 'run', 'pl:build' ], sharedOpts))
       .then(() => spawnP('npm', [ 'run', 'prettier:templates' ], sharedOpts));
   }
 });

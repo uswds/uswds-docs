@@ -1,17 +1,17 @@
 <h3 class="site-preview-heading" id="big-footer">Big footer</h3>
 
 {% capture footer--big %}
-  {% fractal_component footer--big %}
+  {% library_component components-usa-footer-usa-footer--big %}
 {% endcapture %}{{ footer--big | strip }}
 
 <h3 class="site-preview-heading" id="medium-footer">Medium footer</h3>
 
 {% capture footer %}
-  {% fractal_component footer %}
+  {% library_component components-usa-footer-usa-footer %}
 {% endcapture %}{{ footer | strip }}
 
 <h3 class="site-preview-heading" id="slim-footer">Slim footer</h3>
 
 {% capture footer--slim %}
-  {% fractal_component footer--slim %}
+  {% library_component components-usa-footer-usa-footer--slim %}
 {% endcapture %}{{ footer--slim | strip }}

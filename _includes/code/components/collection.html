@@ -2,25 +2,25 @@
   <div class="tablet:grid-col-6">
     <h3 class="site-preview-heading margin-top-0">Default</h3>
     {% capture collection--default %}
-      {% fractal_component collection--default %}
+      {% library_component components-usa-collection-usa-collection %}
     {% endcapture %}{{ collection--default | strip }}
   </div>
   <div class="tablet:grid-col-6">
     <h3 class="site-preview-heading tablet:margin-top-0">Media thumbnail</h3>
     {% capture collection--media %}
-      {% fractal_component collection--media %}
+      {% library_component components-usa-collection-usa-collection--media %}
     {% endcapture %}{{ collection--media | strip }}
   </div>
   <div class="tablet:grid-col-6">
     <h3 class="site-preview-heading">Calendar display</h3>
     {% capture collection--fancy-date %}
-      {% fractal_component collection--fancy-date %}
+      {% library_component components-usa-collection-usa-collection--fancy-date %}
     {% endcapture %}{{ collection--fancy-date | strip }}
   </div>
   <div class="tablet:grid-col-6">
     <h3 class="site-preview-heading">Headings only</h3>
     {% capture collection--only-headers %}
-      {% fractal_component collection--only-headers %}
+      {% library_component components-usa-collection-usa-collection--only-headers %}
     {% endcapture %}{{ collection--only-headers | strip }}
   </div>
 </div>
