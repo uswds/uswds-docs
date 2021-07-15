@@ -32,15 +32,19 @@ variants:
   - variant: "`.usa-button--outline`"
     description: Transparent button with a color stroke.
   - variant: "`.usa-button--inverse`"
-    description: Light color button for dark backgrounds.  
+    description: Light color button for dark backgrounds.
   - variant: "`.usa-button--big`"
     description: A bigger button.
   - variant: "`.usa-button--unstyled`"
     description: A button that looks like a link.
 
 subnav:
-- text: Preview
-  href: '#button-preview'
+- text: Standard buttons
+  href: '#standard-buttons'
+- text: Outline buttons
+  href: '#outline-buttons'
+- text: Big button
+  href: '#big-buttons'
 - text: Code
   href: '#button-code'
 - text: Guidance
