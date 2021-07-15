@@ -1,4 +1,4 @@
 - The examples demonstrate how to use button elements. To use a button style on a link, add the `usa-button` class to your link.
 - To use a different style button on your link, add button variant classes in addition to `usa-button`.
-- Combine any standard button variant with `usa-button--outline` to create their outlined variant such as `.usa-button.usa-button--success.usa-button--outline`.
+- Combine `usa-button--outline` with `usa-button--inverse` to properly display the inverse outline variant.
 - Use the browser-native `disabled` attribute for any disabled button. Don't use `usa-button--disabled`, which is intended only for debugging and prototyping.
