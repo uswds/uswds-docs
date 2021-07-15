@@ -18,6 +18,26 @@
   {% fractal_component buttons--accent-warm %}
 {% endcapture %}{{ accent_warm_buttons | strip }}
 
+<h3 class="site-preview-heading">Info</h3>
+{% capture info_buttons %}
+  {% fractal_component buttons--info %}
+{% endcapture %}{{ info_buttons | strip }}
+
+<h3 class="site-preview-heading">Error</h3>
+{% capture error_buttons %}
+  {% fractal_component buttons--error %}
+{% endcapture %}{{ error_buttons | strip }}
+
+<h3 class="site-preview-heading">Warning</h3>
+{% capture warning_buttons %}
+  {% fractal_component buttons--warning %}
+{% endcapture %}{{ warning_buttons | strip }}
+
+<h3 class="site-preview-heading">Success</h3>
+{% capture success_buttons %}
+  {% fractal_component buttons--success %}
+{% endcapture %}{{ success_buttons | strip }}
+
 <h3 class="site-preview-heading">Base color</h3>
 {% capture base_buttons %}
   {% fractal_component buttons--base %}
@@ -32,6 +52,41 @@
 {% capture outline_inverse_buttons %}
   {% fractal_component buttons--outline-inverse %}
 {% endcapture %}{{ outline_inverse_buttons | strip }}
+
+<h3 class="site-preview-heading">Outline Secondary color </h3>
+{% capture secondary_buttons %}
+  {% fractal_component buttons--secondary-outline %}
+{% endcapture %}{{ secondary_buttons | strip }}
+
+<h3 class="site-preview-heading">Outline Accent cool color </h3>
+{% capture accent_cool_buttons %}
+  {% fractal_component buttons--accent-cool-outline %}
+{% endcapture %}{{ accent_cool_buttons | strip }}
+
+<h3 class="site-preview-heading">Outline Accent warm color </h3>
+{% capture accent_warm_buttons %}
+  {% fractal_component buttons--accent-warm-outline %}
+{% endcapture %}{{ accent_warm_buttons | strip }}
+
+<h3 class="site-preview-heading">Outline Info </h3>
+{% capture info_buttons %}
+  {% fractal_component buttons--info-outline %}
+{% endcapture %}{{ info_buttons | strip }}
+
+<h3 class="site-preview-heading">Outline Error </h3>
+{% capture error_buttons %}
+  {% fractal_component buttons--error-outline %}
+{% endcapture %}{{ error_buttons | strip }}
+
+<h3 class="site-preview-heading">Outline Warning </h3>
+{% capture warning_buttons %}
+  {% fractal_component buttons--warning-outline %}
+{% endcapture %}{{ warning_buttons | strip }}
+
+<h3 class="site-preview-heading">Outline Success </h3>
+{% capture success_buttons %}
+  {% fractal_component buttons--success-outline %}
+{% endcapture %}{{ success_buttons | strip }}
 
 <h3 class="site-preview-heading">Big button</h3>
 {% capture big_buttons %}
